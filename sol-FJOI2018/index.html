@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="本题解同步于luoguemmm切了近年省选题来写题解啦qwq 该题较其他省选题较水吧（否则我再怎么做的出来 思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节  \text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列} \text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="题解【[FJOI2018]所罗门王的宝藏】">
+<meta property="og:url" content="http://yoursite.com/sol-FJOI2018/index.html">
+<meta property="og:site_name" content="tyqtyq~!">
+<meta property="og:description" content="本题解同步于luoguemmm切了近年省选题来写题解啦qwq 该题较其他省选题较水吧（否则我再怎么做的出来 思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节  \text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列} \text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-18T07:26:13.701Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="题解【[FJOI2018]所罗门王的宝藏】">
+<meta name="twitter:description" content="本题解同步于luoguemmm切了近年省选题来写题解啦qwq 该题较其他省选题较水吧（否则我再怎么做的出来 思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节  \text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列} \text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/sol-FJOI2018/">
+
+
+
+
+
+  <title>题解【[FJOI2018]所罗门王的宝藏】 | tyqtyq~!</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">tyqtyq~!</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/blog/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/blog/sol-FJOI2018/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="tyqtyq">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="tyqtyq~!">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">题解【[FJOI2018]所罗门王的宝藏】</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:09+08:00">
+                2019-02-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="本题解同步于luogu"><a href="#本题解同步于luogu" class="headerlink" title="本题解同步于luogu"></a>本题解同步于<a href="https://www.luogu.org/blog/tyqtyq/solution-p4578" target="_blank" rel="noopener">luogu</a></h2><p>emmm切了近年省选题来写题解啦qwq</p>
+<p>该题较其他省选题较水吧（否则我再怎么做的出来</p>
+<p>思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节</p>
+<script type="math/tex; mode=display">
+\text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列}</script><script type="math/tex; mode=display">
+\text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}</script><script type="math/tex; mode=display">
+\text{当我们连完边后会发现给一行/一列增加a就相当于把与这个点相连的所有边权值增加a}</script><script type="math/tex; mode=display">
+\text{这个加边权可以转化为加点权}</script><script type="math/tex; mode=display">
+\text{设}onk_i\text{表示在这个节点上的点击次数，}</script><script type="math/tex; mode=display">
+\text{搜索起始节点的初值为与这个节点所连边中权值最小的}</script><script type="math/tex; mode=display">
+\text{那么已知两点i,j以及}edge_{i,j}\text{和}onk_i\text{，那么由题目条件易得}onk_j=edge_{i,j}-onk_i</script><script type="math/tex; mode=display">
+\text{那么直接dfs}</script><p>时间复杂度为</p>
+<script type="math/tex; mode=display">
+O(T\times(KlogK+K)) = O(TNlogN)</script><p>要改进也行，因为我们对于每个点所连边只要边权最小数所以没必要sort，但当我想到这一点时已经AC本题~</p>
+<script type="math/tex; mode=display">
+Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 1005</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span> ;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">read</span><span class="params">(<span class="keyword">int</span> &amp;x)</span> </span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x) ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">getsol</span> &#123;</span></span><br><span class="line">	<span class="keyword">public</span>:</span><br><span class="line">		<span class="comment">//========data========</span></span><br><span class="line">		<span class="built_in">vector</span>&lt;pair&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; &gt; edge[MAXN*<span class="number">2</span>] ; <span class="comment">//pair第一维是边权，第二维是到达边的编号</span></span><br><span class="line">		<span class="keyword">int</span> n , m , k , onk[MAXN*<span class="number">2</span>] , inq[MAXN*<span class="number">2</span>] , flag ;<span class="comment">//inq表示是否被搜到</span></span><br><span class="line">		<span class="comment">//========func========</span></span><br><span class="line">		<span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">			edge[x].push_back(make_pair(v,y)) ; <span class="comment">//加边</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">bool</span> <span class="title">check</span><span class="params">(<span class="keyword">int</span> u,<span class="keyword">int</span> v,<span class="keyword">int</span> w)</span> </span>&#123;</span><br><span class="line">			<span class="comment">//check , 判断v点是否可行</span></span><br><span class="line">			<span class="keyword">if</span>(onk[u]+onk[v]!=w) <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">1</span> ;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> D)</span> </span>&#123;</span><br><span class="line">			<span class="comment">//cout&lt;&lt;"DFS : START SEARCH IN DOT "&lt;&lt;D&lt;&lt;endl ;</span></span><br><span class="line">			<span class="keyword">if</span>(flag==<span class="number">0</span>) <span class="keyword">return</span> ;</span><br><span class="line">			inq[D] = <span class="number">1</span> ;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">auto</span>&amp; i : edge[D]) &#123; <span class="comment">//对于每个edge[D]中的元素i</span></span><br><span class="line">				<span class="comment">///cout&lt;&lt;"DFS : SEARCH IN DOT "&lt;&lt;i.second&lt;&lt;endl ;</span></span><br><span class="line">				<span class="keyword">if</span>(flag==<span class="number">0</span>) <span class="keyword">return</span> ;</span><br><span class="line">				<span class="comment">//cout&lt;&lt;"In dot : "&lt;&lt;i.second&lt;&lt;endl ;</span></span><br><span class="line">				<span class="keyword">int</span> ver = i.second , edgeval = i.first ;</span><br><span class="line">				<span class="keyword">if</span>(inq[ver]) &#123;</span><br><span class="line">					<span class="keyword">if</span>(flag==<span class="number">1</span>) <span class="comment">//如果答案还是"Yes"那么更新，这里是一个优化~</span></span><br><span class="line">						flag = check(D,ver,edgeval) ;</span><br><span class="line">					<span class="keyword">continue</span> ;</span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					onk[ver] = edgeval-onk[D] ;</span><br><span class="line">					dfs(ver) ;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">void</span> <span class="title">PRINT</span><span class="params">(<span class="keyword">int</span>* arr,<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; ++i) &#123;</span><br><span class="line">				<span class="built_in">cout</span>&lt;&lt;<span class="string">"arr["</span>&lt;&lt;i&lt;&lt;<span class="string">"] = "</span>&lt;&lt;arr[i]&lt;&lt;<span class="built_in">endl</span> ;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">void</span> <span class="title">sol</span><span class="params">()</span> </span>&#123;</span><br><span class="line">			flag = <span class="literal">true</span> ;</span><br><span class="line">			read(n) , read(m) , read(k) ;</span><br><span class="line">			<span class="comment">//行的编号为1~n</span></span><br><span class="line">			<span class="comment">//列的编号为(n+1)~(2*n)</span></span><br><span class="line">			<span class="comment">//喵~</span></span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=k; ++i) &#123;</span><br><span class="line">				<span class="keyword">int</span> x,y,v ;</span><br><span class="line">				read(x) , read(y) , read(v) ;</span><br><span class="line">				add(x,y+n,v) ;</span><br><span class="line">				add(y+n,x,v) ;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="comment">//cerr&lt;&lt;"FINISH READ"&lt;&lt;endl ;</span></span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=<span class="number">2</span>*n; ++i) sort(edge[i].begin(),edge[i].end()) ;</span><br><span class="line">			<span class="comment">//cerr&lt;&lt;"FINISH SORT"&lt;&lt;endl ;</span></span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=<span class="number">2</span>*n; ++i) &#123;</span><br><span class="line">				<span class="keyword">if</span>(!inq[i]&amp;&amp;flag&amp;&amp;!edge[i].empty()) &#123; <span class="comment">// 注意这里判一下vector是否为空。。因为这个RE了两三次</span></span><br><span class="line">					onk[i] = (*edge[i].begin()).first ;</span><br><span class="line">					<span class="comment">//cerr&lt;&lt;"SEARCH IN DOT "&lt;&lt;i&lt;&lt;endl ;</span></span><br><span class="line">					dfs(i) ;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span>(flag==<span class="number">1</span>) &#123;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=<span class="number">2</span>*n; ++i)</span><br><span class="line">					<span class="keyword">for</span>(<span class="keyword">auto</span>&amp; j : edge[i])</span><br><span class="line">						<span class="keyword">if</span>(flag==<span class="number">1</span>) <span class="comment">//重新check一遍，以免遗漏</span></span><br><span class="line">							flag = check(i,j.second,j.first) ;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span>(flag) <span class="built_in">puts</span>(<span class="string">"Yes"</span>) ;</span><br><span class="line">			<span class="keyword">else</span> <span class="built_in">puts</span>(<span class="string">"No"</span>) ;</span><br><span class="line">			<span class="comment">//PRINT(onk,2*n) ;</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="function"><span class="keyword">void</span> <span class="title">clear</span><span class="params">()</span> </span>&#123;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=<span class="number">2</span>*n; ++i) edge[i].clear() ;</span><br><span class="line">			<span class="built_in">memset</span>(inq,<span class="number">0</span>,<span class="keyword">sizeof</span>(onk)) ;</span><br><span class="line">			<span class="built_in">memset</span>(onk,<span class="number">0</span>,<span class="keyword">sizeof</span>(onk)) ;</span><br><span class="line">			n = m = k = flag = <span class="number">0</span> ;</span><br><span class="line">		&#125;</span><br><span class="line">&#125; ;</span><br><span class="line">getsol M ;</span><br><span class="line"><span class="keyword">int</span> T ;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="comment">//freopen("solo3.in" , "rb" , stdin) ;</span></span><br><span class="line">	<span class="comment">//freopen("solo3.out", "wb" ,stdout) ;</span></span><br><span class="line">	read(T) ;</span><br><span class="line">	<span class="keyword">while</span>(T--) M.sol() , M.clear() ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注意本代码是使用C++11标准写成，代码中不同不同语法处已标注</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/sol-HAOI2006/" rel="next" title="题解【[HAOI2006]受欢迎的牛】">
+                <i class="fa fa-chevron-left"></i> 题解【[HAOI2006]受欢迎的牛】
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/sol-CQOI2017/" rel="prev" title="题解【[CQOI2017]小Q的棋盘】">
+                题解【[CQOI2017]小Q的棋盘】 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">tyqtyq</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/blog/archives/">
+              
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#本题解同步于luogu"><span class="nav-number">1.</span> <span class="nav-text">本题解同步于luogu</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tyqtyq</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+
+  
+
+  
+
+</body>
+</html>
