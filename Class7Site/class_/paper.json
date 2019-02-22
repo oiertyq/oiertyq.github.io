@@ -1,0 +1,2805 @@
+{
+  "@odata.context": "http://newkygl.ecjtu.jx.cn/api/$metadata#PeriodicalTheses",
+  "@odata.count": 10,
+  "value": [{
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 21626,
+    "ThesisName": {
+      "Value": "Simultaneous removal of phenol and dichromate from aqueous solution through a phenol-Cr(VI) coupled redox fuel cell reactor",
+      "DisplayText": "Simultaneous removal of phenol and dichromate from aqueous solution through a phenol-Cr(VI) coupled redox fuel cell reactor"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 20315,
+      "DisplayText": "SEPARATION AND PURIFICATION TECHNOLOGY"
+    },
+    "Committer": {
+      "Value": 5742,
+      "DisplayText": "张慧敏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 22345,
+    "ThesisName": {
+      "Value": "Real-time reliability evaluation of two-phase Wiener degradation process",
+      "DisplayText": "Real-time reliability evaluation of two-phase Wiener degradation process"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 20164,
+      "DisplayText": "Communications in Statistics - Theory and Methods"
+    },
+    "Committer": {
+      "Value": 4947,
+      "DisplayText": "鄢伟安"
+    },
+    "PeriodicalLevelID": {
+      "Value": 34,
+      "DisplayText": "SCI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23311,
+    "ThesisName": {
+      "Value": "NOISE ANALYSIS FOR ENVIRONMENTAL LOADING EFFECT ON GPS POSITION TIME SERIES",
+      "DisplayText": "NOISE ANALYSIS FOR ENVIRONMENTAL LOADING EFFECT ON GPS POSITION TIME SERIES"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 20142,
+      "DisplayText": "Acta Geodynamica et Geomaterialia"
+    },
+    "Committer": {
+      "Value": 9518,
+      "DisplayText": "贺小星"
+    },
+    "PeriodicalLevelID": {
+      "Value": 34,
+      "DisplayText": "SCI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23313,
+    "ThesisName": {
+      "Value": "Review of current GPS methodologies for producing accurate time series and their error sources",
+      "DisplayText": "Review of current GPS methodologies for producing accurate time series and their error sources"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 20352,
+      "DisplayText": "Journal of Geodynamics"
+    },
+    "Committer": {
+      "Value": 9518,
+      "DisplayText": "贺小星"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23352,
+    "ThesisName": {
+      "Value": "炼油废水处理工程实例",
+      "DisplayText": "炼油废水处理工程实例"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 2226,
+      "DisplayText": "工业水处理"
+    },
+    "Committer": {
+      "Value": 5745,
+      "DisplayText": "刘雪梅"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23353,
+    "ThesisName": {
+      "Value": "缺氧-好氧两级MBBR处理制药废水的试验研究",
+      "DisplayText": "缺氧-好氧两级MBBR处理制药废水的试验研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 19333,
+      "DisplayText": "应用化工"
+    },
+    "Committer": {
+      "Value": 5745,
+      "DisplayText": "刘雪梅"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23354,
+    "ThesisName": {
+      "Value": "催化氧化法处理焦化污水生化出水的中试研究",
+      "DisplayText": "催化氧化法处理焦化污水生化出水的中试研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 14264,
+      "DisplayText": "工业安全与环保"
+    },
+    "Committer": {
+      "Value": 5745,
+      "DisplayText": "刘雪梅"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23438,
+    "ThesisName": {
+      "Value": "当前新经济统计试行制度改进刍议",
+      "DisplayText": "当前新经济统计试行制度改进刍议"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 1052,
+      "DisplayText": "中国统计"
+    },
+    "Committer": {
+      "Value": 5992,
+      "DisplayText": "刘丽波"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23464,
+    "ThesisName": {
+      "Value": "Influence analysis on the effect of rail fastening parameters on the vibration response of track–bridge system",
+      "DisplayText": "Influence analysis on the effect of rail fastening parameters on the vibration response of track–bridge system"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 23814,
+      "DisplayText": "Advances in Mechanical Engineering"
+    },
+    "Committer": {
+      "Value": 5166,
+      "DisplayText": "罗锟"
+    },
+    "PeriodicalLevelID": {
+      "Value": 34,
+      "DisplayText": "SCI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23504,
+    "ThesisName": {
+      "Value": "基于nCode Designlife的滚滑轴承疲劳寿命比较研究",
+      "DisplayText": "基于nCode Designlife的滚滑轴承疲劳寿命比较研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 595,
+      "DisplayText": "机械传动"
+    },
+    "Committer": {
+      "Value": 4882,
+      "DisplayText": "卢黎明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23545,
+    "ThesisName": {
+      "Value": "GPS坐标序列噪声模型估计方法研究",
+      "DisplayText": "GPS坐标序列噪声模型估计方法研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 19640,
+      "DisplayText": "测绘学报"
+    },
+    "Committer": {
+      "Value": 9518,
+      "DisplayText": "贺小星"
+    },
+    "PeriodicalLevelID": {
+      "Value": 18,
+      "DisplayText": "学科国内权威期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23546,
+    "ThesisName": {
+      "Value": "基于协同创新理念的GPS测量原理与应用教学模式研究",
+      "DisplayText": "基于协同创新理念的GPS测量原理与应用教学模式研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 19809,
+      "DisplayText": "西部素质教育"
+    },
+    "Committer": {
+      "Value": 9518,
+      "DisplayText": "贺小星"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23629,
+    "ThesisName": {
+      "Value": "民族地区市民化进程中残疾人教育水平的城市层次影响研究——以赣东北、赣南民族地区为例",
+      "DisplayText": "民族地区市民化进程中残疾人教育水平的城市层次影响研究——以赣东北、赣南民族地区为例"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 13042,
+      "DisplayText": "贵州民族研究"
+    },
+    "Committer": {
+      "Value": 6175,
+      "DisplayText": "王晓旭"
+    },
+    "PeriodicalLevelID": {
+      "Value": 40,
+      "DisplayText": "CSSCI源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23665,
+    "ThesisName": {
+      "Value": "公路隧道照明灯具利用系数研究",
+      "DisplayText": "公路隧道照明灯具利用系数研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 14126,
+      "DisplayText": "照明工程学报"
+    },
+    "Committer": {
+      "Value": 4983,
+      "DisplayText": "杨超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23666,
+    "ThesisName": {
+      "Value": "基于布灯参数优化的隧道照明节能控制",
+      "DisplayText": "基于布灯参数优化的隧道照明节能控制"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 458,
+      "DisplayText": "华东交通大学学报"
+    },
+    "Committer": {
+      "Value": 4983,
+      "DisplayText": "杨超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 29,
+      "DisplayText": "交大学报"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23667,
+    "ThesisName": {
+      "Value": "Parameters Optimization and Energy—Saving of Highway Tunnel Backlighting with LED",
+      "DisplayText": "Parameters Optimization and Energy—Saving of Highway Tunnel Backlighting with LED"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 20503,
+      "DisplayText": "Journal of Donghua University"
+    },
+    "Committer": {
+      "Value": 4983,
+      "DisplayText": "杨超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23738,
+    "ThesisName": {
+      "Value": "Analysis of the Stress Characteristics of CFG Pile Composite Foundation under Irregularity Condition",
+      "DisplayText": "Analysis of the Stress Characteristics of CFG Pile Composite Foundation under Irregularity Condition"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 22287,
+      "DisplayText": "Civil Engineering Journal"
+    },
+    "Committer": {
+      "Value": 4656,
+      "DisplayText": "杨成忠"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23740,
+    "ThesisName": {
+      "Value": "预应力钢绞线加固RC柱恢复力模型及抗震性能因素分析",
+      "DisplayText": "预应力钢绞线加固RC柱恢复力模型及抗震性能因素分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 2227,
+      "DisplayText": "内蒙古科技与经济"
+    },
+    "Committer": {
+      "Value": 5362,
+      "DisplayText": "曹忠民"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23751,
+    "ThesisName": {
+      "Value": "不确定需求条件下双渠道回收闭环供应链回收模式比较",
+      "DisplayText": "不确定需求条件下双渠道回收闭环供应链回收模式比较"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 60,
+      "DisplayText": "系统工程"
+    },
+    "Committer": {
+      "Value": 4797,
+      "DisplayText": "倪明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 18,
+      "DisplayText": "学科国内权威期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23756,
+    "ThesisName": {
+      "Value": "基于遗传算法优化BP神经网络的稀土萃取过程建模",
+      "DisplayText": "基于遗传算法优化BP神经网络的稀土萃取过程建模"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 549,
+      "DisplayText": "江西师范大学学报(自然科学版)"
+    },
+    "Committer": {
+      "Value": 5019,
+      "DisplayText": "徐芳萍"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23758,
+    "ThesisName": {
+      "Value": "一种多结构数据的同步拟合方法",
+      "DisplayText": "一种多结构数据的同步拟合方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 170,
+      "DisplayText": "计算机工程与应用"
+    },
+    "Committer": {
+      "Value": 5035,
+      "DisplayText": "徐雪松"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23760,
+    "ThesisName": {
+      "Value": "电信息专业就业前景分析与学生创新能力培养",
+      "DisplayText": "电信息专业就业前景分析与学生创新能力培养"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 1158,
+      "DisplayText": "安庆师范学院学报(自然科学版)"
+    },
+    "Committer": {
+      "Value": 5251,
+      "DisplayText": "丁青锋"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23761,
+    "ThesisName": {
+      "Value": "差分进化算法综述",
+      "DisplayText": "差分进化算法综述"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 14830,
+      "DisplayText": "智能系统学报"
+    },
+    "Committer": {
+      "Value": 5251,
+      "DisplayText": "丁青锋"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23774,
+    "ThesisName": {
+      "Value": "脉冲放电产生螺旋流注的等离子体特性研究",
+      "DisplayText": "脉冲放电产生螺旋流注的等离子体特性研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 1959,
+      "DisplayText": "物理学报"
+    },
+    "Committer": {
+      "Value": 9133,
+      "DisplayText": "邹丹旦"
+    },
+    "PeriodicalLevelID": {
+      "Value": 18,
+      "DisplayText": "学科国内权威期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23780,
+    "ThesisName": {
+      "Value": "有向相依网络的可控性研究",
+      "DisplayText": "有向相依网络的可控性研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 14830,
+      "DisplayText": "智能系统学报"
+    },
+    "Committer": {
+      "Value": 5037,
+      "DisplayText": "陈世明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23781,
+    "ThesisName": {
+      "Value": "基于引力场的粒子滤波算法",
+      "DisplayText": "基于引力场的粒子滤波算法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 597,
+      "DisplayText": "控制与决策"
+    },
+    "Committer": {
+      "Value": 5037,
+      "DisplayText": "陈世明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23782,
+    "ThesisName": {
+      "Value": "带强连通分支的多智能体系统可控包含控制",
+      "DisplayText": "带强连通分支的多智能体系统可控包含控制"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 1289,
+      "DisplayText": "控制理论与应用"
+    },
+    "Committer": {
+      "Value": 5037,
+      "DisplayText": "陈世明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 18,
+      "DisplayText": "学科国内权威期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23788,
+    "ThesisName": {
+      "Value": "赣傩民俗美术资源在赣高校艺术教育中的应用",
+      "DisplayText": "赣傩民俗美术资源在赣高校艺术教育中的应用"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 13249,
+      "DisplayText": "中国教育学刊"
+    },
+    "Committer": {
+      "Value": 6065,
+      "DisplayText": "陈慧昭"
+    },
+    "PeriodicalLevelID": {
+      "Value": 40,
+      "DisplayText": "CSSCI源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23789,
+    "ThesisName": {
+      "Value": "赣傩民俗艺术资源引入艺术课堂教学探析",
+      "DisplayText": "赣傩民俗艺术资源引入艺术课堂教学探析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 13249,
+      "DisplayText": "中国教育学刊"
+    },
+    "Committer": {
+      "Value": 6068,
+      "DisplayText": "汪鸿"
+    },
+    "PeriodicalLevelID": {
+      "Value": 40,
+      "DisplayText": "CSSCI源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23798,
+    "ThesisName": {
+      "Value": "论高校教育对大学生人格优化的培养",
+      "DisplayText": "论高校教育对大学生人格优化的培养"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 4026,
+      "DisplayText": "学周刊"
+    },
+    "Committer": {
+      "Value": 5892,
+      "DisplayText": "袁连红"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23803,
+    "ThesisName": {
+      "Value": "基于梯度提升决策树的电力电子电路故障诊断",
+      "DisplayText": "基于梯度提升决策树的电力电子电路故障诊断"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 14160,
+      "DisplayText": "测控技术"
+    },
+    "Committer": {
+      "Value": 5155,
+      "DisplayText": "陈宏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23806,
+    "ThesisName": {
+      "Value": "基于GRNN神经网络的ZigBee室内定位算法研究",
+      "DisplayText": "基于GRNN神经网络的ZigBee室内定位算法研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 458,
+      "DisplayText": "华东交通大学学报"
+    },
+    "Committer": {
+      "Value": 5558,
+      "DisplayText": "邓胡滨"
+    },
+    "PeriodicalLevelID": {
+      "Value": 29,
+      "DisplayText": "交大学报"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23809,
+    "ThesisName": {
+      "Value": "采用libiec61850和IEDScout构建智能变电站实验平台",
+      "DisplayText": "采用libiec61850和IEDScout构建智能变电站实验平台"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 4011,
+      "DisplayText": "实验技术与管理"
+    },
+    "Committer": {
+      "Value": 5219,
+      "DisplayText": "傅钦翠"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23810,
+    "ThesisName": {
+      "Value": "新形势下现代测量技术课程教学改革研究",
+      "DisplayText": "新形势下现代测量技术课程教学改革研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 19809,
+      "DisplayText": "西部素质教育"
+    },
+    "Committer": {
+      "Value": 9518,
+      "DisplayText": "贺小星"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23812,
+    "ThesisName": {
+      "Value": "一种基于直流输出侧并联解耦的光伏微逆变器优化设计研究",
+      "DisplayText": "一种基于直流输出侧并联解耦的光伏微逆变器优化设计研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 3994,
+      "DisplayText": "电力系统保护与控制"
+    },
+    "Committer": {
+      "Value": 5243,
+      "DisplayText": "章勇高"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23813,
+    "ThesisName": {
+      "Value": "级联多电平H桥逆变器的同相层叠型SPWM脉冲分配方法",
+      "DisplayText": "级联多电平H桥逆变器的同相层叠型SPWM脉冲分配方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 571,
+      "DisplayText": "电力自动化设备"
+    },
+    "Committer": {
+      "Value": 5243,
+      "DisplayText": "章勇高"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23814,
+    "ThesisName": {
+      "Value": "一种具有功率耦合电路的无电解电容LED驱动电源",
+      "DisplayText": "一种具有功率耦合电路的无电解电容LED驱动电源"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 3994,
+      "DisplayText": "电力系统保护与控制"
+    },
+    "Committer": {
+      "Value": 5243,
+      "DisplayText": "章勇高"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23823,
+    "ThesisName": {
+      "Value": "An Improved Algorithm for Sentiment Analysis Based on Maximum Entropy",
+      "DisplayText": "An Improved Algorithm for Sentiment Analysis Based on Maximum Entropy"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 20515,
+      "DisplayText": "SOFT COMPUTING"
+    },
+    "Committer": {
+      "Value": 5547,
+      "DisplayText": "谢昕"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23824,
+    "ThesisName": {
+      "Value": "Simulation of corrosion process for concrete filled steel tubular columns with the cellular automata method",
+      "DisplayText": "Simulation of corrosion process for concrete filled steel tubular columns with the cellular automata method"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 15178,
+      "DisplayText": "Engineering Failure Analysis"
+    },
+    "Committer": {
+      "Value": 5329,
+      "DisplayText": "陈梦成"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23830,
+    "ThesisName": {
+      "Value": "对一个基于身份的部分盲签名方案的攻击与改进",
+      "DisplayText": "对一个基于身份的部分盲签名方案的攻击与改进"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 3610,
+      "DisplayText": "计算机工程与科学"
+    },
+    "Committer": {
+      "Value": 5954,
+      "DisplayText": "左黎明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23831,
+    "ThesisName": {
+      "Value": "基于无对映射的无证书聚合签名方案",
+      "DisplayText": "基于无对映射的无证书聚合签名方案"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 69,
+      "DisplayText": "计算机工程"
+    },
+    "Committer": {
+      "Value": 5954,
+      "DisplayText": "左黎明"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23833,
+    "ThesisName": {
+      "Value": "实数编码遗传模拟退火算法SHEPWM控制技术",
+      "DisplayText": "实数编码遗传模拟退火算法SHEPWM控制技术"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 1254,
+      "DisplayText": "电机与控制学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23846,
+    "ThesisName": {
+      "Value": "energy dissipation law of sandstone under acid corrosion and coupled static-dynamic loads",
+      "DisplayText": "energy dissipation law of sandstone under acid corrosion and coupled static-dynamic loads"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 20519,
+      "DisplayText": "Turkish journal of engineering & environmental sciences"
+    },
+    "Committer": {
+      "Value": 5004,
+      "DisplayText": "刘永胜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23852,
+    "ThesisName": {
+      "Value": "物权法定原则探究",
+      "DisplayText": "物权法定原则探究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 19936,
+      "DisplayText": "呼伦贝尔学院学报"
+    },
+    "Committer": {
+      "Value": 5849,
+      "DisplayText": "徐燕峰"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23857,
+    "ThesisName": {
+      "Value": "sensitivity analysis and proportioning design of rock burst similar materials",
+      "DisplayText": "sensitivity analysis and proportioning design of rock burst similar materials"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 20357,
+      "DisplayText": "Functional Materials"
+    },
+    "Committer": {
+      "Value": 5004,
+      "DisplayText": "刘永胜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23858,
+    "ThesisName": {
+      "Value": "三双教学模式的理论探索与实践",
+      "DisplayText": "三双教学模式的理论探索与实践"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 20520,
+      "DisplayText": "中国教育技术装备"
+    },
+    "Committer": {
+      "Value": 5027,
+      "DisplayText": "钟燕科"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23859,
+    "ThesisName": {
+      "Value": "化学腐蚀作用下岩爆相似材料的动静态力学性能研究",
+      "DisplayText": "化学腐蚀作用下岩爆相似材料的动静态力学性能研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 13473,
+      "DisplayText": "西南大学学报(自然科学版)"
+    },
+    "Committer": {
+      "Value": 5004,
+      "DisplayText": "刘永胜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23863,
+    "ThesisName": {
+      "Value": "酸性环境对岩石力学特性影响的试验研究",
+      "DisplayText": "酸性环境对岩石力学特性影响的试验研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 564,
+      "DisplayText": "科学技术与工程"
+    },
+    "Committer": {
+      "Value": 5004,
+      "DisplayText": "刘永胜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23865,
+    "ThesisName": {
+      "Value": "车载复合电源功率控制研究",
+      "DisplayText": "车载复合电源功率控制研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 14117,
+      "DisplayText": "电源技术"
+    },
+    "Committer": {
+      "Value": 5236,
+      "DisplayText": "刘珺"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23866,
+    "ThesisName": {
+      "Value": "基于K-means聚类法的牵引供电隔离开关故障状态监测",
+      "DisplayText": "基于K-means聚类法的牵引供电隔离开关故障状态监测"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 458,
+      "DisplayText": "华东交通大学学报"
+    },
+    "Committer": {
+      "Value": 5039,
+      "DisplayText": "刘仕兵"
+    },
+    "PeriodicalLevelID": {
+      "Value": 29,
+      "DisplayText": "交大学报"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23867,
+    "ThesisName": {
+      "Value": "芦州大桥结构安全设计的判定分析",
+      "DisplayText": "芦州大桥结构安全设计的判定分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 19692,
+      "DisplayText": "韶关学院学报"
+    },
+    "Committer": {
+      "Value": 5004,
+      "DisplayText": "刘永胜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23870,
+    "ThesisName": {
+      "Value": "自适应权重粒子群优化LS-SVM的交通流预测",
+      "DisplayText": "自适应权重粒子群优化LS-SVM的交通流预测"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 14161,
+      "DisplayText": "控制工程"
+    },
+    "Committer": {
+      "Value": 5054,
+      "DisplayText": "杨刚"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23874,
+    "ThesisName": {
+      "Value": "半桥级联多电平逆变器拓扑结构及其调制方法",
+      "DisplayText": "半桥级联多电平逆变器拓扑结构及其调制方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 964,
+      "DisplayText": "电力系统及其自动化学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23875,
+    "ThesisName": {
+      "Value": "级联五开关H桥多电平逆变器功率均衡控制方法",
+      "DisplayText": "级联五开关H桥多电平逆变器功率均衡控制方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 964,
+      "DisplayText": "电力系统及其自动化学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23876,
+    "ThesisName": {
+      "Value": "三开关单级升降压并网逆变器的PID控制器优化",
+      "DisplayText": "三开关单级升降压并网逆变器的PID控制器优化"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 593,
+      "DisplayText": "电力电子技术"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23877,
+    "ThesisName": {
+      "Value": "级联H桥多电平STATCOM的控制策略的研究",
+      "DisplayText": "级联H桥多电平STATCOM的控制策略的研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 14532,
+      "DisplayText": "新余学院学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23878,
+    "ThesisName": {
+      "Value": "电容箝位H桥级联多电平逆变器功率均衡控制方法",
+      "DisplayText": "电容箝位H桥级联多电平逆变器功率均衡控制方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/11/1 0:00:00",
+      "DisplayText": "2017-11"
+    },
+    "PeriodicalID": {
+      "Value": 1254,
+      "DisplayText": "电机与控制学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23879,
+    "ThesisName": {
+      "Value": "三电平逆变器SHEPWM技术的所有解问题",
+      "DisplayText": "三电平逆变器SHEPWM技术的所有解问题"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 964,
+      "DisplayText": "电力系统及其自动化学报"
+    },
+    "Committer": {
+      "Value": 5240,
+      "DisplayText": "叶满园"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23881,
+    "ThesisName": {
+      "Value": "级联多电平逆变器功���均衡控制策略研究",
+      "DisplayText": "级联多电平逆变器功率均衡控制策略研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 593,
+      "DisplayText": "电力电子技术"
+    },
+    "Committer": {
+      "Value": 5011,
+      "DisplayText": "李宋"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23882,
+    "ThesisName": {
+      "Value": "基于改进核主元和支持向量数据描述故障检测",
+      "DisplayText": "基于改进核主元和支持向量数据描述故障检测"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 14160,
+      "DisplayText": "测控技术"
+    },
+    "Committer": {
+      "Value": 5049,
+      "DisplayText": "衷路生"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23883,
+    "ThesisName": {
+      "Value": "基于独立成分和支持向量数据描述（IC-SVDD）的工业过程故障检测",
+      "DisplayText": "基于独立成分和支持向量数据描述（IC-SVDD）的工业过程故障检测"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 2259,
+      "DisplayText": "计算机与应用化学"
+    },
+    "Committer": {
+      "Value": 5049,
+      "DisplayText": "衷路生"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23885,
+    "ThesisName": {
+      "Value": "Rank constrained matrix best approximation problem with respect to (skew) Hermitian matrices",
+      "DisplayText": "Rank constrained matrix best approximation problem with respect to (skew) Hermitian matrices"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 20524,
+      "DisplayText": "Journal of Computational and Applied Mathematics"
+    },
+    "Committer": {
+      "Value": 5962,
+      "DisplayText": "刘喜富"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23887,
+    "ThesisName": {
+      "Value": "A direct MRAC based multivariable multiple-model switching control scheme",
+      "DisplayText": "A direct MRAC based multivariable multiple-model switching control scheme"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 20525,
+      "DisplayText": "Automatica"
+    },
+    "Committer": {
+      "Value": 5012,
+      "DisplayText": "谭畅"
+    },
+    "PeriodicalLevelID": {
+      "Value": 41,
+      "DisplayText": "SCI一区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23888,
+    "ThesisName": {
+      "Value": "Squeezing induced high-efficiency diffraction grating in two-level system",
+      "DisplayText": "Squeezing induced high-efficiency diffraction grating in two-level system"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 14429,
+      "DisplayText": "Optics Express"
+    },
+    "Committer": {
+      "Value": 5475,
+      "DisplayText": "程广玲"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23889,
+    "ThesisName": {
+      "Value": "A new two-stage method for revealing missing parts of edges in protein-protein interaction networks",
+      "DisplayText": "A new two-stage method for revealing missing parts of edges in protein-protein interaction networks"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 19526,
+      "DisplayText": "PLOS ONE"
+    },
+    "Committer": {
+      "Value": 5964,
+      "DisplayText": "张伟"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23890,
+    "ThesisName": {
+      "Value": "One-way Einstein-Podolsky-Rosen steering via atomic coherence",
+      "DisplayText": "One-way Einstein-Podolsky-Rosen steering via atomic coherence"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 14429,
+      "DisplayText": "Optics Express"
+    },
+    "Committer": {
+      "Value": 5476,
+      "DisplayText": "钟文学"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23894,
+    "ThesisName": {
+      "Value": "La0.5Sr0.5CoO2.91@RGO nanocomposites as an effective counter electrode for dye-sensitized solar cells",
+      "DisplayText": "La0.5Sr0.5CoO2.91@RGO nanocomposites as an effective counter electrode for dye-sensitized solar cells"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 20526,
+      "DisplayText": "Journal of Materials Science: Materials in Electronics"
+    },
+    "Committer": {
+      "Value": 5877,
+      "DisplayText": "熊狂炜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23895,
+    "ThesisName": {
+      "Value": "Flower-like CuCo2O4@RGO nanohybrid as an effective counter electrode for dye-sensitized solar cells",
+      "DisplayText": "Flower-like CuCo2O4@RGO nanohybrid as an effective counter electrode for dye-sensitized solar cells"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 19895,
+      "DisplayText": "Materials Letters"
+    },
+    "Committer": {
+      "Value": 5877,
+      "DisplayText": "熊狂炜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23896,
+    "ThesisName": {
+      "Value": "Functional Group Effects on the Photoelectronic Properties of MXene (Sc2CT2, T = O, F, OH) and Their Possible Photocatalytic Activities",
+      "DisplayText": "Functional Group Effects on the Photoelectronic Properties of MXene (Sc2CT2, T = O, F, OH) and Their Possible Photocatalytic Activities"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/11/1 0:00:00",
+      "DisplayText": "2017-11"
+    },
+    "PeriodicalID": {
+      "Value": 19836,
+      "DisplayText": "Scientific Reports"
+    },
+    "Committer": {
+      "Value": 5877,
+      "DisplayText": "熊狂炜"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23898,
+    "ThesisName": {
+      "Value": "Novel differential evolution algorithm with spatial evolution rules",
+      "DisplayText": "Novel differential evolution algorithm with spatial evolution rules"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/12/1 0:00:00",
+      "DisplayText": "2017-12"
+    },
+    "PeriodicalID": {
+      "Value": 20527,
+      "DisplayText": "High Technology Letters"
+    },
+    "Committer": {
+      "Value": 5251,
+      "DisplayText": "丁青锋"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23900,
+    "ThesisName": {
+      "Value": "融合电磁超声载波的声发射传播特性分析",
+      "DisplayText": "融合电磁超声载波的声发射传播特性分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 2152,
+      "DisplayText": "传感技术学报"
+    },
+    "Committer": {
+      "Value": 9136,
+      "DisplayText": "蔡智超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23901,
+    "ThesisName": {
+      "Value": "电磁超声体波方法对内部孔洞缺陷检测研究",
+      "DisplayText": "电磁超声体波方法对内部孔洞缺陷检测研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 2152,
+      "DisplayText": "传感技术学报"
+    },
+    "Committer": {
+      "Value": 9136,
+      "DisplayText": "蔡智超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23903,
+    "ThesisName": {
+      "Value": "地方院校青年教师的发展与成长机制",
+      "DisplayText": "地方院校青年教师的发展与成长机制"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 19809,
+      "DisplayText": "西部素质教育"
+    },
+    "Committer": {
+      "Value": 9136,
+      "DisplayText": "蔡智超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23904,
+    "ThesisName": {
+      "Value": "网络直播教学模式的研究及分析",
+      "DisplayText": "网络直播教学模式的研究及分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 19809,
+      "DisplayText": "西部素质教育"
+    },
+    "Committer": {
+      "Value": 9136,
+      "DisplayText": "蔡智超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23905,
+    "ThesisName": {
+      "Value": "施加水平磁场下电磁声发射与裂纹指向特征分析",
+      "DisplayText": "施加水平磁场下电磁声发射与裂纹指向特征分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 135,
+      "DisplayText": "振动与冲击"
+    },
+    "Committer": {
+      "Value": 9136,
+      "DisplayText": "蔡智超"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23908,
+    "ThesisName": {
+      "Value": "On (α, β)-metrics with isotropic Berwald curvature",
+      "DisplayText": "On (α, β)-metrics with isotropic Berwald curvature"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 19958,
+      "DisplayText": "Journal of Mathematical Analysis and Applications"
+    },
+    "Committer": {
+      "Value": 5967,
+      "DisplayText": "陈光祖"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23910,
+    "ThesisName": {
+      "Value": "On Randers changes of mth root Finsler metrics L = m√￣A without irreducibility of A",
+      "DisplayText": "On Randers changes of mth root Finsler metrics L = m√￣A without irreducibility of A"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 20528,
+      "DisplayText": "Annales Polonici Mathematici"
+    },
+    "Committer": {
+      "Value": 5967,
+      "DisplayText": "陈光祖"
+    },
+    "PeriodicalLevelID": {
+      "Value": 34,
+      "DisplayText": "SCI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23912,
+    "ThesisName": {
+      "Value": "A random dispersion Schrodinger equation with nonlinear time-dependent loss/gain",
+      "DisplayText": "A random dispersion Schrodinger equation with nonlinear time-dependent loss/gain"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/7/1 0:00:00",
+      "DisplayText": "2017-07"
+    },
+    "PeriodicalID": {
+      "Value": 20529,
+      "DisplayText": "Bulletin of the Korean Mathematical Society"
+    },
+    "Committer": {
+      "Value": 9519,
+      "DisplayText": "简慧"
+    },
+    "PeriodicalLevelID": {
+      "Value": 34,
+      "DisplayText": "SCI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23915,
+    "ThesisName": {
+      "Value": "CAD  制图实验互动平台的研究与实现",
+      "DisplayText": "CAD  制图实验互动平台的研究与实现"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 19346,
+      "DisplayText": "图学学报"
+    },
+    "Committer": {
+      "Value": 4805,
+      "DisplayText": "刘志红(1463)"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23924,
+    "ThesisName": {
+      "Value": "网络社会场系统的安全评估中专家权重样本的处理方法",
+      "DisplayText": "网络社会场系统的安全评估中专家权重样本的处理方法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 14706,
+      "DisplayText": "唐山师范学院学报"
+    },
+    "Committer": {
+      "Value": 6054,
+      "DisplayText": "王森"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23927,
+    "ThesisName": {
+      "Value": "\"一带一路\"环境下的教学软硬件改革模式探讨——以华东交通大学教学改革为例",
+      "DisplayText": "\"一带一路\"环境下的教学软硬件改革模式探讨——以华东交通大学教学改革为例"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 1886,
+      "DisplayText": "电脑知识与技术"
+    },
+    "Committer": {
+      "Value": 4821,
+      "DisplayText": "涂宏斌"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23930,
+    "ThesisName": {
+      "Value": "基于大学生创新创业教育的卓越工程师培养模式研究",
+      "DisplayText": "基于大学生创新创业教育的卓越工程师培养模式研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 19809,
+      "DisplayText": "西部素质教育"
+    },
+    "Committer": {
+      "Value": 4821,
+      "DisplayText": "涂宏斌"
+    },
+    "PeriodicalLevelID": {
+      "Value": 28,
+      "DisplayText": "国内一般期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23931,
+    "ThesisName": {
+      "Value": "一种基于改进PLSA和案例推理的行为识别算法",
+      "DisplayText": "一种基于改进PLSA和案例推理的行为识别算法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 15,
+      "DisplayText": "计算机科学"
+    },
+    "Committer": {
+      "Value": 4821,
+      "DisplayText": "涂宏斌"
+    },
+    "PeriodicalLevelID": {
+      "Value": 31,
+      "DisplayText": "CSCD源期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23935,
+    "ThesisName": {
+      "Value": "公务员职务与职级并行:内容、问题与对策",
+      "DisplayText": "公务员职务与职级并行:内容、问题与对策"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 1913,
+      "DisplayText": "领导科学"
+    },
+    "Committer": {
+      "Value": 5889,
+      "DisplayText": "余绪鹏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23936,
+    "ThesisName": {
+      "Value": "基层公务员职务与职级并行制度的落实之策",
+      "DisplayText": "基层公务员职务与职级并行制度的落实之策"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 892,
+      "DisplayText": "理论导刊"
+    },
+    "Committer": {
+      "Value": 5889,
+      "DisplayText": "余绪鹏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23938,
+    "ThesisName": {
+      "Value": "Rectangular illumination based on diffuse reflective off-axis surface",
+      "DisplayText": "Rectangular illumination based on diffuse reflective off-axis surface"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/8/1 0:00:00",
+      "DisplayText": "2017-08"
+    },
+    "PeriodicalID": {
+      "Value": 19757,
+      "DisplayText": "IEEE Photonics Journal"
+    },
+    "Committer": {
+      "Value": 5055,
+      "DisplayText": "祝振敏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23939,
+    "ThesisName": {
+      "Value": "基于AQPSO的RBF神经网络自组织学习",
+      "DisplayText": "基于AQPSO的RBF神经网络自组织学习"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 597,
+      "DisplayText": "控制与决策"
+    },
+    "Committer": {
+      "Value": 5054,
+      "DisplayText": "杨刚"
+    },
+    "PeriodicalLevelID": {
+      "Value": 33,
+      "DisplayText": "EI收录期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23940,
+    "ThesisName": {
+      "Value": "The design of diffuse reflective off-axis surface for non-circular LED arrays",
+      "DisplayText": "The design of diffuse reflective off-axis surface for non-circular LED arrays"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 19757,
+      "DisplayText": "IEEE Photonics Journal"
+    },
+    "Committer": {
+      "Value": 5055,
+      "DisplayText": "祝振敏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23944,
+    "ThesisName": {
+      "Value": "大学生微信使用及其对核心价值观教育的启示——基于调查问卷与访谈的实证分析",
+      "DisplayText": "大学生微信使用及其对核心价值观教育的启示——基于调查问卷与访谈的实证分析"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 534,
+      "DisplayText": "南昌工程学院学报"
+    },
+    "Committer": {
+      "Value": 5889,
+      "DisplayText": "余绪鹏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23949,
+    "ThesisName": {
+      "Value": "孔子学院成长的困境与应对",
+      "DisplayText": "孔子学院成长的困境与应对"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/1/1 0:00:00",
+      "DisplayText": "2017-01"
+    },
+    "PeriodicalID": {
+      "Value": 13089,
+      "DisplayText": "长白学刊"
+    },
+    "Committer": {
+      "Value": 5887,
+      "DisplayText": "舒建国"
+    },
+    "PeriodicalLevelID": {
+      "Value": 26,
+      "DisplayText": "北大中文核心期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23955,
+    "ThesisName": {
+      "Value": "互联网+背景下“3课3度”教学模式构建与实践",
+      "DisplayText": "互联网+背景下“3课3度”教学模式构建与实践"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/3/1 0:00:00",
+      "DisplayText": "2017-03"
+    },
+    "PeriodicalID": {
+      "Value": 4130,
+      "DisplayText": "安阳工学院学报"
+    },
+    "Committer": {
+      "Value": 4803,
+      "DisplayText": "涂晓斌"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23958,
+    "ThesisName": {
+      "Value": "Effects of cross-Kerr coupling and parametric nonlinearity on normal mode splitting, cooling, and entanglement in optomechanical systems",
+      "DisplayText": "Effects of cross-Kerr coupling and parametric nonlinearity on normal mode splitting, cooling, and entanglement in optomechanical systems"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/5/1 0:00:00",
+      "DisplayText": "2017-05"
+    },
+    "PeriodicalID": {
+      "Value": 2354,
+      "DisplayText": "Quantum Information Processing"
+    },
+    "Committer": {
+      "Value": 5474,
+      "DisplayText": "张建松"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23959,
+    "ThesisName": {
+      "Value": "非马尔科夫环境下两体及多体纠缠研究",
+      "DisplayText": "非马尔科夫环境下两体及多体纠缠研究"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/4/1 0:00:00",
+      "DisplayText": "2017-04"
+    },
+    "PeriodicalID": {
+      "Value": 458,
+      "DisplayText": "华东交通大学学报"
+    },
+    "Committer": {
+      "Value": 5474,
+      "DisplayText": "张建松"
+    },
+    "PeriodicalLevelID": {
+      "Value": 29,
+      "DisplayText": "交大学报"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23960,
+    "ThesisName": {
+      "Value": "Campanato函数与θ型积分算子的交换子有界性",
+      "DisplayText": "Campanato函数与θ型积分算子的交换子有界性"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 458,
+      "DisplayText": "华东交通大学学报"
+    },
+    "Committer": {
+      "Value": 5957,
+      "DisplayText": "叶晓峰"
+    },
+    "PeriodicalLevelID": {
+      "Value": 29,
+      "DisplayText": "交大学报"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23961,
+    "ThesisName": {
+      "Value": "带变量核的 Marcinkiewicz 积分交换子的加权 Campanato 估计",
+      "DisplayText": "带变量核的 Marcinkiewicz 积分交换子的加权 Campanato 估计"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/10/1 0:00:00",
+      "DisplayText": "2017-10"
+    },
+    "PeriodicalID": {
+      "Value": 20537,
+      "DisplayText": "内江师范学院学报"
+    },
+    "Committer": {
+      "Value": 5957,
+      "DisplayText": "叶晓峰"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23963,
+    "ThesisName": {
+      "Value": "面向智能制造的“列车通信网络”教学法",
+      "DisplayText": "面向智能制造的“列车通信网络”教学法"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/6/1 0:00:00",
+      "DisplayText": "2017-06"
+    },
+    "PeriodicalID": {
+      "Value": 1007,
+      "DisplayText": "电气电子教学学报"
+    },
+    "Committer": {
+      "Value": 5056,
+      "DisplayText": "张坤鹏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 27,
+      "DisplayText": "国内重要期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23967,
+    "ThesisName": {
+      "Value": "MIMO evolution model-based coupled fault estimation and adaptive control with high-speed train applications",
+      "DisplayText": "MIMO evolution model-based coupled fault estimation and adaptive control with high-speed train applications"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/9/1 0:00:00",
+      "DisplayText": "2017-09"
+    },
+    "PeriodicalID": {
+      "Value": 20539,
+      "DisplayText": "IEEE Transactions on Control Systems Technology"
+    },
+    "Committer": {
+      "Value": 5056,
+      "DisplayText": "张坤鹏"
+    },
+    "PeriodicalLevelID": {
+      "Value": 43,
+      "DisplayText": "SCI二区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23973,
+    "ThesisName": {
+      "Value": "Tight focusing of radially polarized beams modulated by a fractal conical lens",
+      "DisplayText": "Tight focusing of radially polarized beams modulated by a fractal conical lens"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/11/1 0:00:00",
+      "DisplayText": "2017-11"
+    },
+    "PeriodicalID": {
+      "Value": 2355,
+      "DisplayText": "Optics Communications"
+    },
+    "Committer": {
+      "Value": 4648,
+      "DisplayText": "刘志荣"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23974,
+    "ThesisName": {
+      "Value": "Fractal conical lens optical tweezers",
+      "DisplayText": "Fractal conical lens optical tweezers"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/2/1 0:00:00",
+      "DisplayText": "2017-02"
+    },
+    "PeriodicalID": {
+      "Value": 19757,
+      "DisplayText": "IEEE Photonics Journal"
+    },
+    "Committer": {
+      "Value": 4648,
+      "DisplayText": "刘志荣"
+    },
+    "PeriodicalLevelID": {
+      "Value": 45,
+      "DisplayText": "SCI三区期刊"
+    }
+  }, {
+    "@odata.type": "#SRATIMS.PeriodicalTheses",
+    "ViewName": "APIJWCPeriodicalTheses",
+    "ID": 23984,
+    "ThesisName": {
+      "Value": "采用极限学习机预测优化的超高压输电线畸变电场屏蔽",
+      "DisplayText": "采用极限学习机预测优化的超高压输电线畸变电场屏蔽"
+    },
+    "OwnedType": {
+      "Value": 1,
+      "DisplayText": "我校"
+    },
+    "PublishDate": {
+      "Value": "2017/11/1 0:00:00",
+      "DisplayText": "2017-11"
+    },
+    "PeriodicalID": {
+      "Value": 1235,
+      "DisplayText": "电网技术"
+    },
+    "Committer": {
+      "Value": 5234,
+      "DisplayText": "彭春华"
+    },
+    "PeriodicalLevelID": {
+      "Value": 18,
+      "DisplayText": "学科国内权威期刊"
+    }
+  }]
+}

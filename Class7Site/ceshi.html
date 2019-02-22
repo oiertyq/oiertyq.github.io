@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JXUTHighSchoolClass7</title>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/first.js"></script>
+    <script src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Font-Awesome-3.2.1\Font-Awesome-3.2.1\css\font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="images/x-icon" href="jkfzxh.ico">
+    <link rel="stylesheet" href="css/test.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <noscript>
+        <br>
+        <br>
+        <div class="con">
+            <br>
+            <img src="images/JS.png" width="230" height="200">
+            <h1 style="font-size:75pt;"> 检测到您的浏览器不支持JavaScript(JS)</h1>
+            <p style="font-size:37pt;">网页的正常显示需要启用JS，请更改您的浏览器选项以启用JS</p>
+            <br>
+            <br>
+        </div>
+    </noscript>
+</head>
+
+<body onload="detectBrowser()">
+    <a href="index.html">
+        <p>返回主页</p>
+    </a>
+    <p data-target="#demo">获取访问者IP及所在地</p>
+    <script>
+        document.write("IP: " + returnCitySN['cip'] + "<br>地区代码: " + returnCitySN['cid'] + "<br>所在地: " + returnCitySN[
+            'cname']);
+    </script>
+    <br>
+    <br>
+    <p>获取访问者设备信息</p>
+    <script>
+        document.write("浏览器信息:" + navigator.userAgent + "<br>");
+        document.write("浏览器内核名:" + navigator.appName + "<br>");
+        document.write("浏览器代码名:" + navigator.appCodeName + "<br>");
+        document.write("浏览器次要版本:" + navigator.appMinorVersion + "<br>");
+        document.write("硬件平台:" + navigator.platform + "<br>");
+        document.write("是否启用cookie:" + navigator.cookieEnabled + "<br>");
+        document.write("浏览器是否在线:" + navigator.onLine + "<br>");
+        document.write("操作系统的语言: " + navigator.language + "<br>");
+        document.write("可移植文档格式: " + navigator.mimeTypes[1].description + "<br>");
+        document.write("消息内容类型: " + navigator.mimeTypes[1].type + "<br>");
+        document.write("Java支持：" + navigator.javaEnabled());
+    </script>
+    <br>
+    <br>
+    <script src="js/three.min.js"></script>
+    <script>
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+        var geometry = new THREE.BoxGeometry(1, 1, 1);
+        var material = new THREE.MeshBasicMaterial({
+            color: 0xffffff
+        });
+        var cube = new THREE.Mesh(geometry, material);
+        scene.add(cube);
+        camera.position.z = 5;
+        var render = function () {
+            requestAnimationFrame(render);
+            cube.rotation.x += 0.1;
+            cube.rotation.y += 0.1;
+            renderer.render(scene, camera);
+        };
+        render();
+    </script>
+</body>
+
+</html>

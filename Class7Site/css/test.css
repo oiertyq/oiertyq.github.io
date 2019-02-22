@@ -1,0 +1,13 @@
+::selection {
+    background-color: white;
+    color: black;
+}
+
+::-moz-selection {
+    background-color: white;
+    color: black;
+}
+
+a{
+    color: white;
+}
