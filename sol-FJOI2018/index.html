@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next gemini use-motion" lang="zh-cn">
+<html class="theme-next gemini use-motion" lang="en">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -97,12 +97,13 @@
 
 
   <meta name="description" content="本题解同步于luoguemmm切了近年省选题来写题解啦qwq 该题较其他省选题较水吧（否则我再怎么做的出来 思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节  \text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列} \text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}">
+<meta name="keywords" content="蒟蒻 Oier Tyq">
 <meta property="og:type" content="article">
 <meta property="og:title" content="题解【[FJOI2018]所罗门王的宝藏】">
 <meta property="og:url" content="http://oiertyq.github.io/sol-FJOI2018/index.html">
 <meta property="og:site_name" content="tyqtyq~!">
 <meta property="og:description" content="本题解同步于luoguemmm切了近年省选题来写题解啦qwq 该题较其他省选题较水吧（否则我再怎么做的出来 思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节  \text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表示i-n列} \text{当我们读到一颗绿宝石(x,y,k)时，就从x向y+n连一条权值为k的边}">
-<meta property="og:locale" content="zh-cn">
+<meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2019-02-18T07:26:13.701Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="题解【[FJOI2018]所罗门王的宝藏】">
@@ -164,7 +165,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-cn">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
   
@@ -187,11 +188,15 @@
       </a>
     </div>
     
+      
+        <p class="site-subtitle">OierTyq</p>
+      
+    
     
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -219,7 +224,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
         
@@ -236,7 +241,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>Über</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
 
   </li>
         
@@ -253,7 +258,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
 
   </li>
         
@@ -270,7 +275,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
 
@@ -281,7 +286,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Suche</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
         </li>
       
     </ul>
@@ -301,7 +306,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="Suche..." spellcheck="false" type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -355,7 +360,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content>
+      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -387,14 +392,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-02-18 15:21:09 / Geändert am: 15:26:13" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:09+08:00">2019-02-18</time>
+              <time title="Created: 2019-02-18 15:21:09 / Modified: 15:26:13" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:09+08:00">2019-02-18</time>
             
 
             
@@ -418,7 +423,7 @@
             <span class="post-meta-divider">|</span>
             <span class="post-meta-item-icon">
             <i class="fa fa-eye"></i>
-             Aufrufe:  
+             Views:  
             <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
             </span>
           
@@ -549,10 +554,10 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -562,7 +567,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">tyqtyq</p>
-              <div class="site-description motion-element" itemprop="description"></div>
+              <div class="site-description motion-element" itemprop="description">一个蒟蒻Oier的Blog~</div>
           </div>
 
           
@@ -573,7 +578,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">7</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
@@ -594,7 +599,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
                       
                     
                     <span class="site-state-item-count">1</span>
-                    <span class="site-state-item-name">schlagwörter</span>
+                    <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
               
@@ -664,7 +669,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -672,7 +677,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.0.1</div>
 
 
 
@@ -685,7 +690,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
     <span class="post-meta-item-icon">
       <i class="fa fa-user"></i>
     </span>
-    <span class="site-uv" title="Alle Besucher">
+    <span class="site-uv" title="Total Visitors">
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
     </span>
   
@@ -698,7 +703,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
     <span class="post-meta-item-icon">
       <i class="fa fa-eye"></i>
     </span>
-    <span class="site-pv" title="Alle Aufrufe">
+    <span class="site-pv" title="Total Views">
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
     </span>
   
@@ -1247,7 +1252,7 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
   $('.highlight').each(function(i, e) {
     var $wrap = $('<div>').addClass('highlight-wrap');
     $(e).after($wrap);
-    $wrap.append($('<button>').addClass('copy-btn').append('Kopieren').on('click', function(e) {
+    $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function(e) {
       var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
         return $(e).text();
       }).toArray().join('\n');
@@ -1264,15 +1269,15 @@ Talk\;is\;free\;,\;show\;me\;the\;code</script><figure class="highlight cpp"><ta
       ta.readOnly = false;
       var result = document.execCommand('copy');
       
-        if (result) $(this).text('Kopiert');
-        else $(this).text('Kopieren fehlgeschlagen');
+        if (result) $(this).text('Copied');
+        else $(this).text('Copy failed');
       
       ta.blur(); // For iOS
       $(this).blur();
     })).on('mouseleave', function(e) {
       var $b = $(this).find('.copy-btn');
       setTimeout(function() {
-        $b.text('Kopieren');
+        $b.text('Copy');
       }, 300);
     }).append(e);
   })
