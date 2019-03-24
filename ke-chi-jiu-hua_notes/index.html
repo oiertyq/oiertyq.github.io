@@ -96,26 +96,31 @@
 
 
 
-  <meta name="description" content="题目背景emmm $\text{首先特判掉p=q时的情况（ans = }p^2-1\text{）}$  \text{构造函数}f(k) = \left\lfloor \frac{kq}{p}\right\rfloor \text{考虑这个函数}g(x)=\left\lfloor x \right\rfloor\text{的几何意义} \text{他表示在平面直角坐标系中，横坐标为定值，纵坐标小于等">
+  <meta name="description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
 <meta property="og:type" content="article">
-<meta property="og:title" content="题解【[BJOI2012]算不出的等式】">
-<meta property="og:url" content="http://oiertyq.github.io/sol-BJOI2012T1/index.html">
+<meta property="og:title" content="可持久化数据结构学习笔记">
+<meta property="og:url" content="http://oiertyq.github.io/ke-chi-jiu-hua_notes/index.html">
 <meta property="og:site_name" content="tyqtyq~!">
-<meta property="og:description" content="题目背景emmm $\text{首先特判掉p=q时的情况（ans = }p^2-1\text{）}$  \text{构造函数}f(k) = \left\lfloor \frac{kq}{p}\right\rfloor \text{考虑这个函数}g(x)=\left\lfloor x \right\rfloor\text{的几何意义} \text{他表示在平面直角坐标系中，横坐标为定值，纵坐标小于等">
+<meta property="og:description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201902/1505765-20190216211059000-1186433231.png">
-<meta property="og:updated_time" content="2019-02-18T07:28:40.266Z">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317100426696-1925922046.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317102048551-791825348.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317102058536-1998278853.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324142625533-1677396586.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324143015728-739405287.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324143543590-1539636564.png">
+<meta property="og:updated_time" content="2019-03-24T06:45:21.700Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="题解【[BJOI2012]算不出的等式】">
-<meta name="twitter:description" content="题目背景emmm $\text{首先特判掉p=q时的情况（ans = }p^2-1\text{）}$  \text{构造函数}f(k) = \left\lfloor \frac{kq}{p}\right\rfloor \text{考虑这个函数}g(x)=\left\lfloor x \right\rfloor\text{的几何意义} \text{他表示在平面直角坐标系中，横坐标为定值，纵坐标小于等">
-<meta name="twitter:image" content="https://img2018.cnblogs.com/blog/1505765/201902/1505765-20190216211059000-1186433231.png">
+<meta name="twitter:title" content="可持久化数据结构学习笔记">
+<meta name="twitter:description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
+<meta name="twitter:image" content="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317100426696-1925922046.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/sol-BJOI2012T1/">
+  <link rel="canonical" href="http://oiertyq.github.io/ke-chi-jiu-hua_notes/">
 
 
 
@@ -125,7 +130,7 @@
   };
 </script>
 
-  <title>题解【[BJOI2012]算不出的等式】 | tyqtyq~!</title>
+  <title>可持久化数据结构学习笔记 | tyqtyq~!</title>
   
 
 
@@ -290,7 +295,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-BJOI2012T1/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/ke-chi-jiu-hua_notes/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -307,7 +312,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">题解【[BJOI2012]算不出的等式】
+          <h1 class="post-title" itemprop="name headline">可持久化数据结构学习笔记
 
               
             
@@ -333,7 +338,7 @@
                 
               
 
-              <time title="Post created: 2019-02-18 15:19:28 / Updated at: 15:28:40" itemprop="dateCreated datePublished" datetime="2019-02-18T15:19:28+08:00">2019-02-18</time>
+              <time title="Post created: 2019-03-24 14:45:27 / Updated at: 14:45:21" itemprop="dateCreated datePublished" datetime="2019-03-24T14:45:27+08:00">2019-03-24</time>
             
 
             
@@ -372,23 +377,33 @@
       
 
       
-        <p>题目背景emmm</p>
-<p>$\text{首先特判掉p=q时的情况（ans = }p^2-1\text{）}$</p>
-<script type="math/tex; mode=display">
-\text{构造函数}f(k) = \left\lfloor \frac{kq}{p}\right\rfloor</script><script type="math/tex; mode=display">
-\text{考虑这个函数}g(x)=\left\lfloor x \right\rfloor\text{的几何意义}</script><script type="math/tex; mode=display">
-\text{他表示在平面直角坐标系中，横坐标为定值，纵坐标小于等于x的整点个数}</script><script type="math/tex; mode=display">
-\text{好，那么我们继续来看f(k)，他表示所有横坐标为定值，纵坐标小于等于}\frac{kp}{q}\text{的数的个数}</script><script type="math/tex; mode=display">
-\text{那么构造}t(k)=\frac{kq}{p}\text{，那么}\sum_{i=1}^{\frac{p-1}{2}}f(k)\text{的几何意义是：}</script><script type="math/tex; mode=display">
-\text{所有横坐标}\in(1，\frac{p-1}{2})\;\text{的整数，纵坐标是整数的点数}</script><p>即</p>
-<p><img src="https://img2018.cnblogs.com/blog/1505765/201902/1505765-20190216211059000-1186433231.png" alt></p>
-<p>中蓝线以下部分中整点数<br>~</p>
-<script type="math/tex; mode=display">
-\text{又因为}\left\lfloor t(k) \right\rfloor_{max} = \frac{q-1}{2}</script><script type="math/tex; mode=display">
-\text{所有只用考虑纵坐标在直线}\{(0,0),(\frac{p-1}{2},\frac{q-1}{2})\}\text{以下的整点}</script><script type="math/tex; mode=display">
-\text{然后p,q互换同理}</script><script type="math/tex; mode=display">
-\text{所以就是长方形ABCD}(A(0,0),B(0,\frac{p-1}{2}),C(\frac{q-1}{2},\frac{p-1}{2}),D(\frac{q-1}{2},0)\text{中整点个数}</script><script type="math/tex; mode=display">
-\text{所以答案就是}\frac{(p-1)\times(q-1)}{4}</script><p>然后你就切了这道蓝题~</p>
+        <h1 id="可持久化数据结构"><a href="#可持久化数据结构" class="headerlink" title="可持久化数据结构"></a>可持久化数据结构</h1><h2 id="总述"><a href="#总述" class="headerlink" title="总述"></a>总述</h2><p><code>充分利用以前的状态</code></p>
+<h2 id="可持久化Trie树"><a href="#可持久化Trie树" class="headerlink" title="可持久化Trie树"></a>可持久化Trie树</h2><p>这是一颗插入了”AFK”的可持久化Trie<br><img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317100426696-1925922046.png" alt></p>
+<p>接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边</p>
+<ul>
+<li><p>首先，肯定要有”KFC”</p>
+</li>
+<li><p>其次，还要能访问到以前的节点</p>
+</li>
+</ul>
+<p>然后就可以这么搞：</p>
+<p><img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317102048551-791825348.png" alt></p>
+<p>然后插入”KFK”：</p>
+<p><img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190317102058536-1998278853.png" alt></p>
+<p>所以我们发现一个这样的算法：</p>
+<p>ins(u,f) 被定义为一个插入算法</p>
+<p>那么对于[a..z]中的字母X，考虑f所连的一条边权为X的边，若其存在，则将root[i]的X指针指向之。特别的，若X是要插入的字符串中正在处理的一位，则不执行以上操作，并将X指针指向一个新的节点，记该节点为t，该字符为m，该边所指向的节点为k</p>
+<p>执行完后，递归ins(t,k)，把处理到的位置++</p>
+<p>这样就好啦qwq</p>
+<h2 id="可持久化线段树"><a href="#可持久化线段树" class="headerlink" title="可持久化线段树"></a>可持久化线段树</h2><p>先建树，过程同普通线段树，不再赘述</p>
+<p>然后假设建出来一颗这样的：<img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324142625533-1677396586.png" alt></p>
+<p>接下来修改v[1] = 3 ， 根据推理发现应该是这样的：<img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324143015728-739405287.png" alt></p>
+<p>继续，v[2]=0，树长这样子：<img src="https://img2018.cnblogs.com/blog/1505765/201903/1505765-20190324143543590-1539636564.png" alt></p>
+<p>OK，代码跟可持久化Trie+线段树样的，然后时间复杂度证明如下：</p>
+<blockquote>
+<p>1.一开始树中只有原始的NlogN个节点<br>2.每次插入会增加一条长度为logN的链</p>
+</blockquote>
+<p>所以总长度为O(NlogN+(N-1)logN)=O((2N-1)logN)=O(NlogN)</p>
 
       
     </div>
@@ -419,8 +434,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/sol-LGP2787/" rel="next" title="题解【语文1（chin1）- 理理思维】">
-                <i class="fa fa-chevron-left"></i> 题解【语文1（chin1）- 理理思维】
+              <a href="/sol-BJOI2015/" rel="next" title="题解【[BJOI2015]树的同构】">
+                <i class="fa fa-chevron-left"></i> 题解【[BJOI2015]树的同构】
               </a>
             
           </div>
@@ -428,10 +443,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/sol-HAOI2006/" rel="prev" title="题解【[HAOI2006]受欢迎的牛】">
-                题解【[HAOI2006]受欢迎的牛】 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -476,8 +487,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -521,6 +541,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#可持久化数据结构"><span class="nav-number">1.</span> <span class="nav-text">可持久化数据结构</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#总述"><span class="nav-number">1.1.</span> <span class="nav-text">总述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可持久化Trie树"><span class="nav-number">1.2.</span> <span class="nav-text">可持久化Trie树</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可持久化线段树"><span class="nav-number">1.3.</span> <span class="nav-text">可持久化线段树</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
