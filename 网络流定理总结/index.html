@@ -96,32 +96,25 @@
 
 
 
-  <meta name="description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
-<meta name="keywords" content="可持久化">
+  <meta name="description" content="By tyqtyq, 若有遗漏请点击左边链接谢谢 任意图 $最大流 = 最小割$   证明略     $最大权闭合子图的权值和 = 正权节点权值和-最小割$    在一个图中，我们选取一些点构成集合，记为V，且集合中的出边(即集合中的点的向外连出的弧)，所指向的终点(弧头)也在V中，则我们称V为闭合图。最大权闭合 图即在所有闭合图中，集合中点的权值之和最大的V，我们称V为最大权闭合图。 此时，构建">
+<meta name="keywords" content="网络流,总结">
 <meta property="og:type" content="article">
-<meta property="og:title" content="可持久化数据结构学习笔记">
-<meta property="og:url" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/index.html">
+<meta property="og:title" content="网络流定理总结">
+<meta property="og:url" content="http://oiertyq.github.io/网络流定理总结/index.html">
 <meta property="og:site_name" content="tyqtyq~!">
-<meta property="og:description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
+<meta property="og:description" content="By tyqtyq, 若有遗漏请点击左边链接谢谢 任意图 $最大流 = 最小割$   证明略     $最大权闭合子图的权值和 = 正权节点权值和-最小割$    在一个图中，我们选取一些点构成集合，记为V，且集合中的出边(即集合中的点的向外连出的弧)，所指向的终点(弧头)也在V中，则我们称V为闭合图。最大权闭合 图即在所有闭合图中，集合中点的权值之和最大的V，我们称V为最大权闭合图。 此时，构建">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/first.png">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/second.png">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/third.png">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/1.png">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/2.png">
-<meta property="og:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/3.png">
-<meta property="og:updated_time" content="2019-03-24T07:15:38.757Z">
+<meta property="og:updated_time" content="2019-08-09T12:18:21.342Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="可持久化数据结构学习笔记">
-<meta name="twitter:description" content="可持久化数据结构总述充分利用以前的状态 可持久化Trie树这是一颗插入了”AFK”的可持久化Trie 接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边  首先，肯定要有”KFC”  其次，还要能访问到以前的节点   然后就可以这么搞：  然后插入”KFK”：  所以我们发现一个这样的算法： ins(u,f) 被定义为一个插入算法 那么对于[a..z]中的字母X，考虑">
-<meta name="twitter:image" content="http://oiertyq.github.io/ke-chi-jiu-hua-notes/first.png">
+<meta name="twitter:title" content="网络流定理总结">
+<meta name="twitter:description" content="By tyqtyq, 若有遗漏请点击左边链接谢谢 任意图 $最大流 = 最小割$   证明略     $最大权闭合子图的权值和 = 正权节点权值和-最小割$    在一个图中，我们选取一些点构成集合，记为V，且集合中的出边(即集合中的点的向外连出的弧)，所指向的终点(弧头)也在V中，则我们称V为闭合图。最大权闭合 图即在所有闭合图中，集合中点的权值之和最大的V，我们称V为最大权闭合图。 此时，构建">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/ke-chi-jiu-hua-notes/">
+  <link rel="canonical" href="http://oiertyq.github.io/网络流定理总结/">
 
 
 
@@ -131,7 +124,7 @@
   };
 </script>
 
-  <title>可持久化数据结构学习笔记 | tyqtyq~!</title>
+  <title>网络流定理总结 | tyqtyq~!</title>
   
 
 
@@ -363,7 +356,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/ke-chi-jiu-hua-notes/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/网络流定理总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -380,7 +373,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">可持久化数据结构学习笔记
+          <h1 class="post-title" itemprop="name headline">网络流定理总结
 
               
             
@@ -406,7 +399,7 @@
                 
               
 
-              <time title="Created: 2019-03-24 15:10:45 / Modified: 15:15:38" itemprop="dateCreated datePublished" datetime="2019-03-24T15:10:45+08:00">2019-03-24</time>
+              <time title="Created: 2019-08-09 20:17:13 / Modified: 20:18:21" itemprop="dateCreated datePublished" datetime="2019-08-09T20:17:13+08:00">2019-08-09</time>
             
 
             
@@ -452,34 +445,97 @@
       
 
       
-        <h1 id="可持久化数据结构"><a href="#可持久化数据结构" class="headerlink" title="可持久化数据结构"></a>可持久化数据结构</h1><h2 id="总述"><a href="#总述" class="headerlink" title="总述"></a>总述</h2><p><code>充分利用以前的状态</code></p>
-<h2 id="可持久化Trie树"><a href="#可持久化Trie树" class="headerlink" title="可持久化Trie树"></a>可持久化Trie树</h2><p>这是一颗插入了”AFK”的可持久化Trie<br><img src="first.png" alt></p>
-<p>接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边</p>
-<ul>
-<li><p>首先，肯定要有”KFC”</p>
-</li>
-<li><p>其次，还要能访问到以前的节点</p>
-</li>
-</ul>
-<p>然后就可以这么搞：</p>
-<p><img src="second.png" alt></p>
-<p>然后插入”KFK”：</p>
-<p><img src="third.png" alt></p>
-<p>所以我们发现一个这样的算法：</p>
-<p>ins(u,f) 被定义为一个插入算法</p>
-<p>那么对于[a..z]中的字母X，考虑f所连的一条边权为X的边，若其存在，则将root[i]的X指针指向之。特别的，若X是要插入的字符串中正在处理的一位，则不执行以上操作，并将X指针指向一个新的节点，记该节点为t，该字符为m，该边所指向的节点为k</p>
-<p>执行完后，递归ins(t,k)，把处理到的位置++</p>
-<p>这样就好啦qwq</p>
-<h2 id="可持久化线段树"><a href="#可持久化线段树" class="headerlink" title="可持久化线段树"></a>可持久化线段树</h2><p>先建树，过程同普通线段树，不再赘述</p>
-<p>然后假设建出来一颗这样的：<img src="1.png" alt></p>
-<p>接下来修改v[1] = 3 ， 根据推理发现应该是这样的：<img src="2.png" alt></p>
-<p>继续，v[2]=0，树长这样子：<img src="3.png" alt></p>
-<p>OK，代码跟可持久化Trie+线段树样的，然后时间复杂度证明如下：</p>
-<blockquote>
-<p>1.一开始树中只有原始的NlogN个节点<br>2.每次插入会增加一条长度为logN的链</p>
-</blockquote>
-<p>所以总长度为O(NlogN+(N-1)logN)=O((2N-1)logN)=O(NlogN)</p>
+        <p>By <a href="mailto: tyq11186192@outlook.com" target="_blank" rel="noopener">tyqtyq</a>, 若有遗漏请点击左边链接谢谢</p>
+<h1 id="任意图"><a href="#任意图" class="headerlink" title="任意图"></a>任意图</h1><details>
+<summary>$最大流 = 最小割$</summary>
+<summary>
 
+<p>证明略</p>
+</summary>
+</details>
+
+<details>
+<summary>$最大权闭合子图的权值和 = 正权节点权值和-最小割$</summary>
+
+<summary>
+
+<p>在一个图中，我们选取一些点构成集合，记为V，且集合中的出边(即集合中的点的向外连出的弧)，所指向的终点(弧头)也在V中，则我们称V为闭合图。最大权闭合
+图即在所有闭合图中，集合中点的权值之和最大的V，我们称V为最大权闭合图。</p>
+<p>此时，构建一个超级源点s，一个超级汇点t，所有的点按权值的正负连接到s和t上，转换成一个边权值有向图</p>
+<p>有最大权闭合子图的权值和 = 正权节点权值和-最小割</p>
+</summary>
+</details>
+
+<h1 id="DAG-有向无环图类别"><a href="#DAG-有向无环图类别" class="headerlink" title="DAG 有向无环图类别"></a>DAG 有向无环图类别</h1><details>
+<summary>$二分图最小点覆盖的点数=最大匹配数\;\;\;最大独立集=最小路径覆盖的边数=顶点数n-最大匹配数$</summary>
+
+<summary>
+
+<p>最小路径覆盖定义: 用最少的路径覆盖整个图的所有顶点各一次(路径可以为一个点)</p>
+
+<p>G': 把原图中每个点$i$拆分为两个点$i_1,i_2$,若原图中边$(x,y)$存在,则G'中边$(x_1,y_2)$存在</p>
+
+
+<ifream src="https://www.cnblogs.com/jianglangcaijin/p/5989907.html"><a href="https://www.cnblogs.com/jianglangcaijin/p/5989907.html" target="_blank" rel="noopener">证明</a></ifream>
+
+
+
+
+<pre><blockquote>定理证明：如果匹配数为零，那么P中不存在有向边，于是显然有最小路径覆盖=|G|－最大匹配数=|G|。在匹配数为0的基础上，即S中一条边没有，如果在S中增加一条匹配边(i1,j2)，那么在图G的路径覆盖中就存在一条由i连接j的边，也就是说i与j 在一条路径上，于是路径覆盖数就可以减少一个；如此继续增加匹配边，每增加一条，路径覆盖数就减少一条；直到匹配边不能继续增加时，路径覆盖数也不能再减少了；但是这里只 是说明了每条匹配边对应于路径覆盖中的一条路径上的一条连接两个点之间的有向边；下面来说明一个路径覆盖中的每条连接两个顶点之间的有向边对应于一条匹配 边。与前面类似，对于路径覆盖中的每条连接两个顶点之间的每条有向边<i,j>，我们可以在匹配图中对应作一条连接i1与j2的边， 显然这样做出来二分图中的边均为匹配，即连接的X和Y中的两个点之前都未匹配过，否则匹配过的那个点对应原图时就被覆盖两次，与路径覆盖矛盾。这就说明匹配边与路径覆盖图中连接两顶点之间边的一一对应关系，那么也就说明了前面的公式成立，即S中每增加一条匹配边，路径覆盖数减少1.(引用来自以上链接)</i,j></blockquote></pre>
+<br>
+<p>代码:</p>
+
+
+
+<pre><code>#define getpoint(i,X) (X == 1)?(i):(i+n) 
+void dfs(int n){
+    for(int i=head[n]; i; i=Next[i]){
+        int v = ver[i] ; add_new(getpoint(i,1),getpoint(p,2)) ;    
+        dfs(v) ;
+    }
+}
+void work(){
+    dfs(1) ;
+}</code></pre>
+</summary>
+
+</details>
+
+
+<details>
+<summary>$最小可重路径覆盖$</summary>
+
+<summary>
+<p>设$w_{i,j}$为原DAG中i能否到达j</p>
+<p>以w为邻接矩阵即可</p>
+</summary>
+</details>
+
+<h1 id="二分图"><a href="#二分图" class="headerlink" title="二分图"></a>二分图</h1><details>
+<summary>$最小顶点覆盖 = 最大匹配 = 所有顶点数-最大独立集$</summary>
+
+<summary>
+证明略
+</summary>
+</details>
+
+<details>
+<summary>$最大团 = 补图的最大独立集$</summary>
+
+<summary>
+证明略
+</summary>
+</details>
+
+<details>
+<summary>$霍尔定理$</summary>
+
+<summary>
+<p>设一个二分图左侧一点集{S},与其直接相连的点集为{T},若所有$|\{S\}| \leq |\{T\}|,则至少有一个大小为|左侧点集|的匹配$</p>
+<p>证明略</p>
+<p>值得一提的是在数轴(黑点匹配距离$\leq k$的)上只需考虑所有区间即可</p>
+</summary>
+</details>
       
     </div>
 
@@ -502,7 +558,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/可持久化/" rel="tag"># 可持久化</a>
+            <a href="/tags/网络流-总结/" rel="tag"># 网络流,总结</a>
           
         </div>
       
@@ -515,8 +571,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/sol-BJOI2015/" rel="next" title="题解【[BJOI2015]树的同构】">
-                <i class="fa fa-chevron-left"></i> 题解【[BJOI2015]树的同构】
+              <a href="/ke-chi-jiu-hua-notes/" rel="next" title="可持久化数据结构学习笔记">
+                <i class="fa fa-chevron-left"></i> 可持久化数据结构学习笔记
               </a>
             
           </div>
@@ -524,10 +580,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/网络流定理总结/" rel="prev" title="网络流定理总结">
-                网络流定理总结 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -661,7 +713,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#可持久化数据结构"><span class="nav-number">1.</span> <span class="nav-text">可持久化数据结构</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#总述"><span class="nav-number">1.1.</span> <span class="nav-text">总述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可持久化Trie树"><span class="nav-number">1.2.</span> <span class="nav-text">可持久化Trie树</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可持久化线段树"><span class="nav-number">1.3.</span> <span class="nav-text">可持久化线段树</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#任意图"><span class="nav-number">1.</span> <span class="nav-text">任意图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#DAG-有向无环图类别"><span class="nav-number">2.</span> <span class="nav-text">DAG 有向无环图类别</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二分图"><span class="nav-number">3.</span> <span class="nav-text">二分图</span></a></li></ol></div>
             
 
           </div>
