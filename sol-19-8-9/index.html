@@ -96,28 +96,25 @@
 
 
 
-  <meta name="description" content="切了水题十分快乐~ 首先发现本题结构一定是颗树~ 本题样例1：  。。没啥用？ 样例2：  这个时候我们发现：根据贪心思想我们希望每次走一步都多走一个点，如果我们选择最长链的话，在链上每走一步就多走了一个点，如果走不完最长链，那答案就是步数+1，而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点，除非已经访问过所有节点。 接下来证明而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点">
-<meta name="keywords" content="蒟蒻 Oier Tyq">
+  <meta name="description" content="T1Dinic最大流模板 错误: 会但是没拿满分, 因为建点时起点为1而其他所有点要+1 T2最小表示法模板 错误: 会但是没拿满分, 因为最小表示法数组*2 T3分治Floyd">
+<meta name="keywords" content="sol-集训">
 <meta property="og:type" content="article">
-<meta property="og:title" content="题解【[CQOI2017]小Q的棋盘】">
-<meta property="og:url" content="http://oiertyq.github.io/sol-CQOI2017/index.html">
+<meta property="og:title" content="sol-19.8.9">
+<meta property="og:url" content="http://oiertyq.github.io/sol-19-8-9/index.html">
 <meta property="og:site_name" content="tyqtyq~!">
-<meta property="og:description" content="切了水题十分快乐~ 首先发现本题结构一定是颗树~ 本题样例1：  。。没啥用？ 样例2：  这个时候我们发现：根据贪心思想我们希望每次走一步都多走一个点，如果我们选择最长链的话，在链上每走一步就多走了一个点，如果走不完最长链，那答案就是步数+1，而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点，除非已经访问过所有节点。 接下来证明而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点">
+<meta property="og:description" content="T1Dinic最大流模板 错误: 会但是没拿满分, 因为建点时起点为1而其他所有点要+1 T2最小表示法模板 错误: 会但是没拿满分, 因为最小表示法数组*2 T3分治Floyd">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://bubbleioa.top/wp-content/uploads/2018/12/P3698-1.png">
-<meta property="og:image" content="http://bubbleioa.top/wp-content/uploads/2018/12/P3698-2.png">
-<meta property="og:updated_time" content="2019-02-18T07:26:42.723Z">
+<meta property="og:updated_time" content="2019-08-09T13:49:18.427Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="题解【[CQOI2017]小Q的棋盘】">
-<meta name="twitter:description" content="切了水题十分快乐~ 首先发现本题结构一定是颗树~ 本题样例1：  。。没啥用？ 样例2：  这个时候我们发现：根据贪心思想我们希望每次走一步都多走一个点，如果我们选择最长链的话，在链上每走一步就多走了一个点，如果走不完最长链，那答案就是步数+1，而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点，除非已经访问过所有节点。 接下来证明而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点">
-<meta name="twitter:image" content="http://bubbleioa.top/wp-content/uploads/2018/12/P3698-1.png">
+<meta name="twitter:title" content="sol-19.8.9">
+<meta name="twitter:description" content="T1Dinic最大流模板 错误: 会但是没拿满分, 因为建点时起点为1而其他所有点要+1 T2最小表示法模板 错误: 会但是没拿满分, 因为最小表示法数组*2 T3分治Floyd">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/sol-CQOI2017/">
+  <link rel="canonical" href="http://oiertyq.github.io/sol-19-8-9/">
 
 
 
@@ -127,7 +124,7 @@
   };
 </script>
 
-  <title>题解【[CQOI2017]小Q的棋盘】 | tyqtyq~!</title>
+  <title>sol-19.8.9 | tyqtyq~!</title>
   
 
 
@@ -359,7 +356,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-CQOI2017/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-19-8-9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -376,7 +373,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">题解【[CQOI2017]小Q的棋盘】
+          <h1 class="post-title" itemprop="name headline">sol-19.8.9
 
               
             
@@ -402,7 +399,7 @@
                 
               
 
-              <time title="Created: 2019-02-18 15:21:57 / Modified: 15:26:42" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:57+08:00">2019-02-18</time>
+              <time title="Created: 2019-08-09 21:37:08 / Modified: 21:49:18" itemprop="dateCreated datePublished" datetime="2019-08-09T21:37:08+08:00">2019-08-09</time>
             
 
             
@@ -448,22 +445,11 @@
       
 
       
-        <p>切了水题十分快乐~</p>
-<p>首先发现本题结构一定是颗树~</p>
-<p>本题样例1：</p>
-<p><img src="http://bubbleioa.top/wp-content/uploads/2018/12/P3698-1.png" alt="miao~"></p>
-<p>。。没啥用？</p>
-<p>样例2：</p>
-<p><img src="http://bubbleioa.top/wp-content/uploads/2018/12/P3698-2.png" alt="miao~"></p>
-<p>这个时候我们发现：根据贪心思想我们希望每次走一步都多走一个点，如果我们选择最长链的话，在链上每走一步就多走了一个点，如果走不完最长链，那答案就是步数+1，而如果走完最长链还有剩余步数的话，<strong>每两步可以多访问一个节点</strong>，除非已经访问过所有节点。</p>
-<p>接下来证明而如果走完最长链还有剩余步数的话，每两步可以多访问一个节点 ：</p>
-<script type="math/tex; mode=display">
-\text{设走过的集合为}S_1\text{，没走到的集合为}S_2\text{，点集为}V\text{，边集为}E</script><script type="math/tex; mode=display">
-\text{那么当}S_1 \neq V\text{时，至少存在一点U，其子节点中至少有一个属于}S_2</script><script type="math/tex; mode=display">
-\text{因为如果不存在这样的结点，该图就不是联通图，更别说树了}</script><script type="math/tex; mode=display">
-\text{那么在访问该节点时，可以花费一步访问那个儿子，在花费一步回来继续}</script><script type="math/tex; mode=display">
-\text{所以走完最长链还有剩余步数的话，每两步可以多访问一个节点}</script><p>那么就是道水题啦~ <del>建议大家去luogu评个红</del></p>
-<p>图片来源：<a href="http://bubbleioa.top" target="_blank" rel="noopener">http://bubbleioa.top</a></p>
+        <h1 id="T1"><a href="#T1" class="headerlink" title="T1"></a>T1</h1><p>Dinic最大流模板</p>
+<p>错误: 会但是没拿满分, 因为建点时起点为1而其他所有点要+1</p>
+<h1 id="T2"><a href="#T2" class="headerlink" title="T2"></a>T2</h1><p>最小表示法模板</p>
+<p>错误: 会但是没拿满分, 因为最小表示法数组*2</p>
+<h1 id="T3"><a href="#T3" class="headerlink" title="T3"></a>T3</h1><p>分治Floyd</p>
 
       
     </div>
@@ -485,6 +471,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/sol-集训/" rel="tag"># sol-集训</a>
+          
+        </div>
+      
 
       
       
@@ -494,8 +486,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/sol-FJOI2018/" rel="next" title="题解【[FJOI2018]所罗门王的宝藏】">
-                <i class="fa fa-chevron-left"></i> 题解【[FJOI2018]所罗门王的宝藏】
+              <a href="/网络流定理总结/" rel="next" title="网络流定理总结">
+                <i class="fa fa-chevron-left"></i> 网络流定理总结
               </a>
             
           </div>
@@ -503,10 +495,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/sol-BJOI2015/" rel="prev" title="题解【[BJOI2015]树的同构】">
-                题解【[BJOI2015]树的同构】 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -554,8 +542,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -618,6 +615,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#T1"><span class="nav-number">1.</span> <span class="nav-text">T1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#T2"><span class="nav-number">2.</span> <span class="nav-text">T2</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#T3"><span class="nav-number">3.</span> <span class="nav-text">T3</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
