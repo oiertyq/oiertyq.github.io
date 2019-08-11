@@ -1,0 +1,18 @@
+Helper-- Edit By tyqtyq&wyxkk
+
+In this game you can do those Five things:
+
+1. collect, which will let CALC0 add some number, which change when the CALC1 changes
+2. Buy wyx, which will let CALC1 add 1
+3. update, which will let CALC1 be CALC1*2+1
+4. update++, which will let CALC1 be CALC1*512+511
+5. 蛤, which will let CALC0 add some number, but CALC1 will be lower(it will be (CALC1+1)/2-1)
+
+We call the game goes a round when CALC0 arrive some value that is given down.
+10000, 1000000, 100000000, 100000000, ……
+When you finish a round ** CALC0 will be 0 again **, and the goal is to finish 100 rounds.
+
+By the way, if you break the record, you can send a email to me which contains you name, the time you finish 100 rounds, and the PrtSc that you finish the game.You can leave you name.
+Also you can send a email to me to tell me some "Bug"(feature), or you want to make the project better with me.
+
+Good Luck!

@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [1, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [1, 0, 0, 0]; 		var hour =">
+  <meta name="description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [0.8, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [0, 0, 0, 0]; 		var hour">
 <meta name="keywords" content="蒟蒻 Oier Tyq">
 <meta property="og:type" content="website">
 <meta property="og:title" content="tyqtyq~!">
 <meta property="og:url" content="http://oiertyq.github.io/about/game.html">
 <meta property="og:site_name" content="tyqtyq~!">
-<meta property="og:description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [1, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [1, 0, 0, 0]; 		var hour =">
+<meta property="og:description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [0.8, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [0, 0, 0, 0]; 		var hour">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-11T11:14:40.073Z">
+<meta property="og:updated_time" content="2019-08-11T14:05:05.816Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="tyqtyq~!">
-<meta name="twitter:description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [1, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [1, 0, 0, 0]; 		var hour =">
+<meta name="twitter:description" content="Play games 	 		var cnt = [0]; var nw=0, nt=1;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		var xs = [0.8, 1.5, 2, 10]; 		var st = [-9600, 10, 100, 10000] ; 		var btms = [0, 0, 0, 0]; 		var hour">
 
 
 
@@ -394,9 +394,9 @@
 	<script text="text/javascript">
 		var cnt = [0]; var nw=0, nt=1; 
 		var Things = ["蛤", "wyx", "升级wyx", "%wyx"];
-		var xs = [1, 1.5, 2, 10];
+		var xs = [0.8, 1.5, 2, 10];
 		var st = [-9600, 10, 100, 10000] ;
-		var btms = [1, 0, 0, 0];
+		var btms = [0, 0, 0, 0];
 		var hour = 0, minute = 0, second = 0;
 		var t = 0;
 		var flag1;
@@ -411,10 +411,11 @@
 		    flag1 = setTimeout("studyTime()", 1000);          
 		}
 		function upd(){
-			if(cnt[nw] == Infinity || nt == Infinity){
+			if(nw == 100){
 				alert("You win!") ;
 				alert("You cost "+document.getElementById('H').innerHTML+"Hours "+document.getElementById('M').innerHTML+"Minutes "+document.getElementById('S').innerHTML+"Seconds.") ;
 			}
+			if(cnt[nw]>=10000*Math.pow(10, nw*2)) nw=nw+1, cnt[nw]=0;
 			var p = document.getElementById("wyxtxdy") ;
 			p.innerHTML = cnt[nw] ; p = document.getElementById("wyxddyq") ;
 			p.innerHTML = nw ; p = document.getElementById("awsl") ;
@@ -423,7 +424,6 @@
 		function add(){
 			if(nw == 0 && cnt[nw] == 0) studyTime() ;
 			cnt[nw]=cnt[nw]+nt; 
-			if(cnt[nw]>=10000*Math.pow(10, nw*2)) nw=nw+1, cnt[nw]=cnt[nw-1]-10000*Math.pow(10, nw*2-2);
 			upd() ;
 		}
 		function get(n){
@@ -437,8 +437,7 @@
 			}
 			if(cnt[nw] >= cost){
 				cnt[nw] -= cost;
-				if(p!=0) btms[p]=btms[p]+1;
-				else btms[p] = btms[p]*0.8;
+				btms[p]=btms[p]+1;
 				if(p == 0) nt*=0.5 ;
 				if(p == 1) ++nt ;
 				if(p == 2) nt*=2 ;
@@ -448,8 +447,11 @@
 			return ;
 		}
 		function show(){
-			alert("0:1'7''") ;
+			alert("0:2'7''") ;
 		}
+		function toload(p) {
+            window.location.href=p;
+        }
 		alert("%wyx!") ;
 	</script>
 </head>
@@ -457,16 +459,19 @@
 	<style>
 		p{padding:0px; margin:0px;display: inline;}
 	</style>
-	<p id="wyxtxdy">0 </p><br><p id="wyxddyq">0</p><p>轮 </p><p id="awsl">0</p><p>个wyx</p> <br>
-	<button onclick="add()">增加值 1</button>
+	<p id="wyxtxdy">0 </p><br><p id="wyxddyq">0</p><p>Times & </p><p id="awsl">0</p><p>*wyx</p> <br>
+	<button onclick="add()">add the value!</button>
 	<div>
 		<button onclick="Buy(0)">蛤</button>
 		<button onclick="Buy(1)">wyx</button>
 		<button onclick="Buy(2)">Update wyx!</button>
 		<button onclick="Buy(3)">%wyx</button>
 	</div>
-	<button onclick="show()">显示记录</button>
+	<button onclick="show()">Show record</button>
 	<p id="H">0</p><p> Hours </p><p id="M">0</p><p> Minutes </p><p id="S">0</p><p> Seconds</p><br>
+	
+	<button onclick="toload('Helper-EN.txt')">Show helper</button><br>
+	<button onclick="toload('mailto: tyq11186192@outlook.com')">Connect tyqtyq(you can change the record if you provide proof)</button>
 	</body>
 </html>
         
