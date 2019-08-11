@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="tyqtyq~!">
 <meta property="og:description" content="PreViews 		 			function get(p) { 				if(p == 0) return &quot;https://www.bilibili.com/video/av59111196&quot; ; 				if(p == 1) return &quot;https://www.bilibili.com/video/av3060153&quot;  ; 				if(p == 2) return &quot;htt">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-10T06:28:09.537Z">
+<meta property="og:updated_time" content="2019-08-11T11:17:43.446Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="tyqtyq~!">
 <meta name="twitter:description" content="PreViews 		 			function get(p) { 				if(p == 0) return &quot;https://www.bilibili.com/video/av59111196&quot; ; 				if(p == 1) return &quot;https://www.bilibili.com/video/av3060153&quot;  ; 				if(p == 2) return &quot;htt">
@@ -398,10 +398,11 @@
 				if(p == 2) return "https://www.bilibili.com/video/av21551703" ;
 				if(p == 3) return "https://www.bilibili.com/video/av60660066" ;
 				if(p == 4) return "https://www.bilibili.com/video/av57785834" ;
-				return "wtf??" ;
+				return "发现彩蛋!" ;
 			}
 			function gt_html() {
 				p = Math.floor(5*Math.random()) ;
+				if( get(p) == "发现彩蛋!") {alert(get(p)); p = 1 ;}
 				document.getElementById("load").src=get(p) ;
 			}
 			function load(p) {
@@ -422,6 +423,9 @@
 				}
 				return ;
 			}
+			function jmp() {
+				window.location.href='https://oiertyq.github.io/about/game.html';
+			}
 			alert("欢迎来到tyqtyq的主页") ;
 		</script>
 	</head>
@@ -434,6 +438,7 @@
 			<button onclick="load('https://www.vijos.org/d/OLiveOJ/'); show();">Load My OJ at this page</button><br>
 			<button onclick="load('https://acg.toubiec.cn/random'); show();">Load Random Pictures</button><br>
 			<button onclick="gt_html(); show();">Look My Favourite Videos!</button><br>
+			<button onclick="jmp();">Jump to my game!</button>
 		</div>
 		<div id="loader" style="display: inline">
 			<iframe id="load" sandbox="allow-scripts allow-same-origin allow-popups" width="720px" height="432px" scrolling="yes" src="https://acg.toubiec.cn/random">qwq - This is the page loader.</iframe><br>
@@ -501,7 +506,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
