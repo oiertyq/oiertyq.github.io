@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[sol - 19.8.10]]></title>
-    <url>%2Fsol-19-8-10%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[讲义集]]></title>
     <url>%2F%E8%AE%B2%E4%B9%89%E9%9B%86%2F</url>
-    <content type="text"><![CDATA[tyq的主页! function load() { window.location.href='/about'; } function toload() { window.location.href='讲义集'; } ​ ​ 进入tyq的主页! ​ 下载讲义 ​]]></content>
+    <content type="text"><![CDATA[tyq的主页! function load() { window.location.href='/about'; } function toload() { window.location.href='type.txt'; } ​ ​ 进入tyq的主页! ​ 下载讲义 ​]]></content>
   </entry>
   <entry>
     <title><![CDATA[UOJ#2]]></title>
