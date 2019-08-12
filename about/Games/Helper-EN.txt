@@ -9,10 +9,12 @@ In this game you can do those Five things:
 5. 蛤, which will let CALC0 add some number, but CALC1 will be lower(it will be (CALC1+1)/2-1)
 
 We call the game goes a round when CALC0 arrive some value that is given down.
-10000, 1000000, 100000000, 100000000, ……
+	" 10000, 1000000, 100000000, 100000000, …… "
 When you finish a round ** CALC0 will be 0 again **, and the goal is to finish 100 rounds.
 
 By the way, if you break the record, you can send a email to me which contains you name, the time you finish 100 rounds, and the PrtSc that you finish the game.You can leave you name.
 Also you can send a email to me to tell me some "Bug"(feature), or you want to make the project better with me.
+
+In order to punlish somebody using clickers, you can't press a button more than 9 times one second.
 
 Good Luck!

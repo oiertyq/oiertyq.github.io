@@ -96,25 +96,25 @@
 
 
 
-  <meta name="description" content="游戏导航 		 			function load(p) { 				window.location.href=p; 			} 		 		 	 	 		Load Game00 		Load Game01 		Load Game02">
+  <meta name="description" content="来自⑨的智慧考验! 	 		var Problems=[&quot;江泽民主席的生日是&quot;, &quot;WYX能不能AKIOI?&quot;]; 		var ANSS = [[&quot;19260817&quot;, &quot;998244353&quot;, &quot;19491001&quot;, &quot;谈笑风生&quot;], [&quot;能&quot;, &quot;不能&quot;, &quot;不能&quot;, &quot;不能&quot;]]; 		var nums = 2 ; var rightans=1, gtpnt=0 ; 		functio">
 <meta name="keywords" content="蒟蒻 Oier Tyq">
 <meta property="og:type" content="website">
 <meta property="og:title" content="tyqtyq~!">
-<meta property="og:url" content="http://oiertyq.github.io/about/game.html">
+<meta property="og:url" content="http://oiertyq.github.io/about/Games/game01.html">
 <meta property="og:site_name" content="tyqtyq~!">
-<meta property="og:description" content="游戏导航 		 			function load(p) { 				window.location.href=p; 			} 		 		 	 	 		Load Game00 		Load Game01 		Load Game02">
+<meta property="og:description" content="来自⑨的智慧考验! 	 		var Problems=[&quot;江泽民主席的生日是&quot;, &quot;WYX能不能AKIOI?&quot;]; 		var ANSS = [[&quot;19260817&quot;, &quot;998244353&quot;, &quot;19491001&quot;, &quot;谈笑风生&quot;], [&quot;能&quot;, &quot;不能&quot;, &quot;不能&quot;, &quot;不能&quot;]]; 		var nums = 2 ; var rightans=1, gtpnt=0 ; 		functio">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-11T16:58:41.734Z">
+<meta property="og:updated_time" content="2019-08-11T17:30:19.822Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="tyqtyq~!">
-<meta name="twitter:description" content="游戏导航 		 			function load(p) { 				window.location.href=p; 			} 		 		 	 	 		Load Game00 		Load Game01 		Load Game02">
+<meta name="twitter:description" content="来自⑨的智慧考验! 	 		var Problems=[&quot;江泽民主席的生日是&quot;, &quot;WYX能不能AKIOI?&quot;]; 		var ANSS = [[&quot;19260817&quot;, &quot;998244353&quot;, &quot;19491001&quot;, &quot;谈笑风生&quot;], [&quot;能&quot;, &quot;不能&quot;, &quot;不能&quot;, &quot;不能&quot;]]; 		var nums = 2 ; var rightans=1, gtpnt=0 ; 		functio">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/about/game.html"/>
+  <link rel="canonical" href="http://oiertyq.github.io/about/Games/game01.html"/>
 
 
 
@@ -377,6 +377,39 @@
   
 
 
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          
+            
+          
+          <li><a href="/about/">ABOUT</a></li>
+        
+      
+    
+      
+      
+        
+          <li>GAMES</li>
+        
+      
+    
+      
+      
+        
+          
+            
+          
+          <li><a href="/about/game01.html/">GAME01.HTML</a></li>
+        
+      
+    
+  </ul>
+
 
 </div>
 
@@ -389,21 +422,92 @@
         
         
           <html>
-	<head><meta name="generator" content="Hexo 3.8.0">
-		<title>游戏导航</title>
-		<script text="text/javascript">
-			function load(p) {
-				window.location.href=p;
+<head><meta name="generator" content="Hexo 3.8.0">
+	<title>来自⑨的智慧考验!</title>
+	<script text="text/javascript">
+		var Problems=["江泽民主席的生日是", "WYX能不能AKIOI?"];
+		var ANSS = [["19260817", "998244353", "19491001", "谈笑风生"], ["能", "不能", "不能", "不能"]];
+		var nums = 2 ; var rightans=1, gtpnt=0 ;
+		function go(){
+			alert("Time over! You get "+gtpnt.toString()+" Point!") ;
+			window.location.href='http://oiertyq.github.io/about/Games/game01.html';
+		}
+		var pl=[[1,2,3,4],[1,2,4,3],[1,3,2,4],[1,3,4,2],[2,1,3,4],[2,1,4,3],[2,3,1,4],[2,3,4,1],[2,4,1,3],[2,4,3,1],
+		[3,1,2,4],[3,1,4,2],[3,2,1,4],[3,2,4,1],[3,4,1,2],[3,4,2,1],[4,1,2,3],[4,1,3,2],[4,2,1,3],[4,2,3,1],[4,3,1,2],[4,3,2,1]] ;
+		var numm = 0 ;
+		function gtinit() {
+			numm = Math.floor(Math.random()*24) ;
+			while(numm == 24) numm = Math.floor(Math.random()*24) ;
+		}
+		function gt(p) {
+			return pl[numm][p] ;
+		}
+		function LoadMyProblem(){
+			document.getElementById("PNT").innerHTML = "Point: "+gtpnt.toString() ;
+			var p = Math.floor(Math.random()*nums) ;
+			while(p == nums) {p = Math.floor(Math.random()*nums) ;}
+			var q = Math.floor(Math.random()*4) ;
+			while(q == 4) {q = Math.floor(Math.random()*nums) ;}
+			var Pindex = Problems[p] ; gtinit() ;
+			var Aindex = ANSS[p][(q+gt(0))%4] ;
+			var Bindex = ANSS[p][(q+gt(1))%4] ;
+			var Cindex = ANSS[p][(q+gt(2))%4] ;
+			var Dindex = ANSS[p][(q+gt(3))%4] ;
+			if((q+gt(0))%4==0) rightans = 0 ;
+			if((q+gt(1))%4==0) rightans = 1 ;
+			if((q+gt(2))%4==0) rightans = 2 ;
+			if((q+gt(3))%4==0) rightans = 3 ;
+			document.getElementById("P").innerHTML = Pindex;
+			document.getElementById("A").innerHTML = Aindex;
+			document.getElementById("B").innerHTML = Bindex;
+			document.getElementById("C").innerHTML = Cindex;
+			document.getElementById("D").innerHTML = Dindex;
+		}
+		function gtt(p){
+			if(p == 0) return "A" ;
+			if(p == 1) return "B" ;
+			if(p == 2) return "C" ;
+			if(p == 3) return "D" ;
+			return "???" ;
+ 		}
+		function ans(p){
+			if(p == rightans) {
+				document.getElementById(gtt(p)).innerHTML="Right" ;
+				gtpnt += 10 ;
+				setTimeout(LoadMyProblem, 1000) ;
 			}
-		</script>
-		
-	</head>
-	<body>
-		<button onclick="load('Games/game00.html')">Load Game00</button>
-		<button onclick="load('Games/game01.html')">Load Game01</button>
-		<button onclick="load('Games/game02.html')">Load Game02</button>
-	</body>
-</html>
+			else {
+				document.getElementById(gtt(p)).innerHTML="Wrong" ;
+				gtpnt = 0 ;
+				setTimeout(LoadMyProblem, 1000) ;
+			}
+		}
+		function start() {
+			document.getElementById("S").style.display = "none" ;
+			document.getElementById("P").style.display = "block" ;
+			document.getElementById("A").style.display = "block" ;
+			document.getElementById("B").style.display = "block" ;
+			document.getElementById("C").style.display = "block" ;
+			document.getElementById("D").style.display = "block" ;
+			document.getElementById("PNT").style.display = "block" ;
+			//setTimeout(go, 3*60*1000) ;
+			//setTimeout(go, 30*1000) ;
+			setTimeout(go, 60*1000) ;
+			LoadMyProblem() ;
+		}
+	</script>
+</head>
+<body>
+	<div id="qwq1" style="display: block">
+		<p id="P" style="display: none">qwqqwq</p>
+		<button id="S" style="display: block" onclick="start()">Start Now!</button>
+		<button id="A" style="display: none" onclick="ans(0)">A</button>
+		<button id="B" style="display: none" onclick="ans(1)">B</button><br>
+		<button id="C" style="display: none" onclick="ans(2)">C</button>
+		<button id="D" style="display: none" onclick="ans(3)">D</button><br>
+		<p id="PNT" style="display: none">Point: 0</p>
+	</div>
+</body></html>
         
       </div>
       
@@ -412,6 +516,39 @@
     </div>
     
 
+
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          
+            
+          
+          <li><a href="/about/">ABOUT</a></li>
+        
+      
+    
+      
+      
+        
+          <li>GAMES</li>
+        
+      
+    
+      
+      
+        
+          
+            
+          
+          <li><a href="/about/game01.html/">GAME01.HTML</a></li>
+        
+      
+    
+  </ul>
 
 
     
