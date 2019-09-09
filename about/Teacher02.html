@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>教师节快乐 - To 胡老师</title>
+        <script type="text/javascript">
+            function close(str){
+                document.getElementById(str).style.display="none";
+            }
+            function __open__(){
+                var i = 1 ;
+                var n = Math.floor(3*Math.random()) ;
+                if(n==0) n = 1;
+                else if(n==1) n = 2;
+                else if(n==2) n = 3;
+                close("1");
+                close("2");
+                close("3");
+                document.getElementById(n.toString()).style.display="block";
+            }
+        </script>
+    </head>
+    <center><button onclick="__open__();">Open One</button></center>
+    <center><div id="1" style="display: none;"><iframe src="//player.bilibili.com/player.html?aid=9005772&cid=14871465&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div></center>
+    <center><div id="2" style="display: none;"><iframe src="//player.bilibili.com/player.html?aid=29021008&cid=50331022&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div></center>
+    <center><div id="3" style="display: none;"><iframe src="//player.bilibili.com/player.html?aid=31144829&cid=54399726&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div></center>
+</html> 
