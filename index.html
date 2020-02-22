@@ -356,7 +356,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/讲义集/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/learning-strings/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -376,7 +376,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/讲义集/" class="post-title-link" itemprop="url">讲义集</a>
+                <a href="/learning-strings/" class="post-title-link" itemprop="url">字符串学习笔记</a>
               
             
           </h1>
@@ -401,24 +401,12 @@
                 
               
 
-              <time title="Created: 2019-08-10 16:41:38" itemprop="dateCreated datePublished" datetime="2019-08-10T16:41:38+08:00">2019-08-10</time>
+              <time title="Created: 2020-02-22 20:36:46 / Modified: 21:04:43" itemprop="dateCreated datePublished" datetime="2020-02-22T20:36:46+08:00">2020-02-22</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2019-08-11 19:22:57" itemprop="dateModified" datetime="2019-08-11T19:22:57+08:00">2019-08-11</time>
               
             
           </span>
@@ -455,20 +443,14 @@
         
           
             <p>
-              
-    
-        tyq的主页!
-        
-            function load() {
-                window.location.href='/about';
-            }
-            function toload(
+              SAProblem 1 (不同子串个数)题意  求一个字符串的本质不同子串数量
+解法  考虑到一个子串就是一个后缀的前缀, 那么我们考虑每一个后缀的贡献, 对于任意一个后缀的”排列”, 我们的答案就是 $\frac{n(n+1)}{2}-\sum\limits_{i\in [2, n]} lcp(i
               ...
             </p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/讲义集/#more" rel="contents">
+              <a class="btn" href="/learning-strings/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -528,7 +510,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/UOJ#2/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/solution-wc2007-paper-scissors-stone/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -548,7 +530,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/UOJ#2/" class="post-title-link" itemprop="url">UOJ#2</a>
+                <a href="/solution-wc2007-paper-scissors-stone/" class="post-title-link" itemprop="url">「WC2007」剪刀石头布 题解</a>
               
             
           </h1>
@@ -573,7 +555,7 @@
                 
               
 
-              <time title="Created: 2019-08-10 16:40:46 / Modified: 16:51:59" itemprop="dateCreated datePublished" datetime="2019-08-10T16:40:46+08:00">2019-08-10</time>
+              <time title="Created: 2020-02-22 20:22:08 / Modified: 20:57:30" itemprop="dateCreated datePublished" datetime="2020-02-22T20:22:08+08:00">2020-02-22</time>
             
 
             
@@ -615,19 +597,14 @@
         
           
             <p>
-              这道题我们设两个bitset（N和Y）
-$N_i = cal(i,0) , Y_i=cal(i,1)$
-cal(i) 即第i位经过题目中的计算后所得出来的值
-然后贪心。倒序循环i，考虑第i位如何决策
-
-若$N_i$ = 1  ， 显然这一位选0好
-若$Y_i$ = 1 ， 那么在不超过限制的情况下，
+              题意给定一个竞赛图, 需要给一些边定向, 使得图中的三元环个数最少.
+解法考虑容斥, 很明显, 我们考虑 $3$ 个点不构成三元环的情况. 考虑钦定一个不属于三元三个节点, 那么我们很明显有一个节点要选两条出边, 我们钦定这个节点是这三个节点的代表节点 那么很明显$Ans = \dbinom{n}{
               ...
             </p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/UOJ#2/#more" rel="contents">
+              <a class="btn" href="/solution-wc2007-paper-scissors-stone/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -687,7 +664,7 @@ cal(i) 即第i位经过题目中的计算后所得出来的值
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/JXCPC试题册/">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/solution-wc2005-friendly-animals/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="tyqtyq">
@@ -707,7 +684,7 @@ cal(i) 即第i位经过题目中的计算后所得出来的值
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/JXCPC试题册/" class="post-title-link" itemprop="url">JXCPC试题册</a>
+                <a href="/solution-wc2005-friendly-animals/" class="post-title-link" itemprop="url">「WC2005」友好的生物 题解</a>
               
             
           </h1>
@@ -732,7 +709,7 @@ cal(i) 即第i位经过题目中的计算后所得出来的值
                 
               
 
-              <time title="Created: 2019-08-10 16:39:18 / Modified: 16:51:10" itemprop="dateCreated datePublished" datetime="2019-08-10T16:39:18+08:00">2019-08-10</time>
+              <time title="Created: 2020-02-22 20:04:16 / Modified: 20:57:37" itemprop="dateCreated datePublished" datetime="2020-02-22T20:04:16+08:00">2020-02-22</time>
             
 
             
@@ -774,1139 +751,14 @@ cal(i) 即第i位经过题目中的计算后所得出来的值
         
           
             <p>
-              JXCPC 试题册Input file: standard input
-Output file: standard output
-Time limit: 1s
-Memory limit: 256 megabytes
-Problem A. CotreeAvin has two trees which 
+              题意给定一个权值函数$f(a, b)=(\sum_{i=1}^{k-1} C_id_i)-C_Kd_K$用来计算 a, b 的友好程度. 其中 $C_i$ 是非负常数, $d_i$ 是$a, b$属性 $i$ 的差别
+解法我们令$a_{k, i}$表示第 $k$ 个生物的第 $i$ 项属性. 明显$
               ...
             </p>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/JXCPC试题册/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/BZOJ4001/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/BZOJ4001/" class="post-title-link" itemprop="url">BZOJ4001</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-08-10 16:38:41 / Modified: 16:51:30" itemprop="dateCreated datePublished" datetime="2019-08-10T16:38:41+08:00">2019-08-10</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              BZOJ 4001 概率论设$f_i$表示i个点的二叉树方案数
-立刻有$f_i = \sum{i=0}^{i-1} f_i f_{n-i-1}$
-设$F(x)为序列f的生成函数，有F(x)^2 = \sum_{i=0}^{+\infty} \sum_{i+j = n} f_i f_j x^i$
-可设
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/BZOJ4001/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-19-8-9/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/sol-19-8-9/" class="post-title-link" itemprop="url">sol-19.8.9</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-08-09 21:37:08 / Modified: 21:49:18" itemprop="dateCreated datePublished" datetime="2019-08-09T21:37:08+08:00">2019-08-09</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              T1Dinic最大流模板
-错误: 会但是没拿满分, 因为建点时起点为1而其他所有点要+1
-T2最小表示法模板
-错误: 会但是没拿满分, 因为最小表示法数组*2
-T3分治Floyd
-
-              
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/sol-19-8-9/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/网络流定理总结/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/网络流定理总结/" class="post-title-link" itemprop="url">网络流定理总结</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-08-09 20:17:13 / Modified: 20:18:21" itemprop="dateCreated datePublished" datetime="2019-08-09T20:17:13+08:00">2019-08-09</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              By tyqtyq, 若有遗漏请点击左边链接谢谢
-任意图
-$最大流 = 最小割$
-
-
-证明略
-
-
-
-
-$最大权闭合子图的权值和 = 正权节点权值和-最小割$
-
-
-
-在一个图中，我们选取一些点构成集合，记为V，且集合中的出边(即集合中的点的向外连出的弧)，所指向的终点(弧头)也在V中，则我们称V为闭合
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/网络流定理总结/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/ke-chi-jiu-hua-notes/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/ke-chi-jiu-hua-notes/" class="post-title-link" itemprop="url">可持久化数据结构学习笔记</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-03-24 15:10:45 / Modified: 15:15:38" itemprop="dateCreated datePublished" datetime="2019-03-24T15:10:45+08:00">2019-03-24</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              可持久化数据结构总述充分利用以前的状态
-可持久化Trie树这是一颗插入了”AFK”的可持久化Trie
-接下来插入”KFC”,此时新建一个根（因为要可持久化），然后我们来看他该怎么连边
-
-首先，肯定要有”KFC”
-
-其次，还要能访问到以前的节点
-
-
-然后就可以这么搞：
-
-然后插入”KFK”：
-
-所以我
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/ke-chi-jiu-hua-notes/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-BJOI2015/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/sol-BJOI2015/" class="post-title-link" itemprop="url">题解【[BJOI2015]树的同构】</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-02-18 15:22:42 / Modified: 15:27:14" itemprop="dateCreated datePublished" datetime="2019-02-18T15:22:42+08:00">2019-02-18</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              切了省选题+紫题，来写个题解
-这题其实挺水，才120行代码
-该题写了我一天（上午1.5h，晚上10min = 一天）
-hash，对于节点A，
-
-hashval[A] = \{hashval[i]\times2333^{num} | i \in son[A] \}， 并且hashval[i]大于任何在
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/sol-BJOI2015/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-CQOI2017/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/sol-CQOI2017/" class="post-title-link" itemprop="url">题解【[CQOI2017]小Q的棋盘】</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-02-18 15:21:57 / Modified: 15:26:42" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:57+08:00">2019-02-18</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              切了水题十分快乐~
-首先发现本题结构一定是颗树~
-本题样例1：
-
-。。没啥用？
-样例2：
-
-这个时候我们发现：根据贪心思想我们希望每次走一步都多走一个点，如果我们选择最长链的话，在链上每走一步就多走了一个点，如果走不完最长链，那答案就是步数+1，而如果走完最长链还有剩余步数的话，每两步可以多访问一个
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/sol-CQOI2017/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/sol-FJOI2018/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tyqtyq">
-      <meta itemprop="description" content="一个蒟蒻Oier的Blog~">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tyqtyq~!">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/sol-FJOI2018/" class="post-title-link" itemprop="url">题解【[FJOI2018]所罗门王的宝藏】</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-02-18 15:21:09 / Modified: 15:26:13" itemprop="dateCreated datePublished" datetime="2019-02-18T15:21:09+08:00">2019-02-18</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              本题解同步于luoguemmm切了近年省选题来写题解啦qwq
-该题较其他省选题较水吧（否则我再怎么做的出来
-思路是图论做法，做法上楼上大佬已经讲的很清楚了，我来谈谈代码实现上的一些细节
-
-\text{设节点1...2n，i}\in\text{1-n表示i行，i}\in\text{(n+1)-2n时表
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/sol-FJOI2018/#more" rel="contents">
+              <a class="btn" href="/solution-wc2005-friendly-animals/#more" rel="contents">
                 Read more &raquo;
               </a>
             </div>
@@ -1954,10 +806,6 @@ hashval[A] = \{hashval[i]\times2333^{num} | i \in son[A] \}， 并且hashval[i]�
   </section>
 
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
-  </nav>
-
 
 
           </div>
@@ -1997,7 +845,7 @@ hashval[A] = \{hashval[i]\times2333^{num} | i \in son[A] \}， 并且hashval[i]�
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">13</span>
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -2060,7 +908,7 @@ hashval[A] = \{hashval[i]\times2333^{num} | i \in son[A] \}， 并且hashval[i]�
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love" id="animate">
     <i class="fa fa-tyqtyq"></i>
   </span>
@@ -2555,20 +1403,6 @@ hashval[A] = \{hashval[i]\times2333^{num} | i \in son[A] \}， 并且hashval[i]�
 
   
   
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
     
       
     
