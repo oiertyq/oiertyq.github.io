@@ -96,24 +96,27 @@
 
 
 
-  <meta name="description" content="qwq">
-<meta name="keywords" content="blog OI tyqtyq">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog of tyqtyq&#39;s">
-<meta property="og:url" content="http://oiertyq.github.io/tags/杂题/index.html">
+  <meta name="description" content="题意给定一个 $n\times m$ 的棋盘, 棋盘上有 $k$ 颗棋子和若干有障碍格子. 不妨设棋盘左上角格子坐标为 $(1, 1)$, 右下角格子坐标为 $(n, m)$. 参数 $a$, $b$ 规定了所有棋子的走法: 在 $(x, y)$ 的棋子下一步能走到 $(x + a, y + b)$, $(x + a, y - b)$, $(x –  a, y + b)$, $(x – a, y">
+<meta name="keywords" content="费用流, 卡常">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「SDOI2012」象棋 题解">
+<meta property="og:url" content="http://oiertyq.github.io/solution-sdoi2012-chess/index.html">
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
-<meta property="og:description" content="qwq">
+<meta property="og:description" content="题意给定一个 $n\times m$ 的棋盘, 棋盘上有 $k$ 颗棋子和若干有障碍格子. 不妨设棋盘左上角格子坐标为 $(1, 1)$, 右下角格子坐标为 $(n, m)$. 参数 $a$, $b$ 规定了所有棋子的走法: 在 $(x, y)$ 的棋子下一步能走到 $(x + a, y + b)$, $(x + a, y - b)$, $(x –  a, y + b)$, $(x – a, y">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/ue09qnc2.png">
+<meta property="og:updated_time" content="2020-02-24T06:07:34.261Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog of tyqtyq&#39;s">
-<meta name="twitter:description" content="qwq">
+<meta name="twitter:title" content="「SDOI2012」象棋 题解">
+<meta name="twitter:description" content="题意给定一个 $n\times m$ 的棋盘, 棋盘上有 $k$ 颗棋子和若干有障碍格子. 不妨设棋盘左上角格子坐标为 $(1, 1)$, 右下角格子坐标为 $(n, m)$. 参数 $a$, $b$ 规定了所有棋子的走法: 在 $(x, y)$ 的棋子下一步能走到 $(x + a, y + b)$, $(x + a, y - b)$, $(x –  a, y + b)$, $(x – a, y">
+<meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/ue09qnc2.png">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/tags/杂题/">
+  <link rel="canonical" href="http://oiertyq.github.io/solution-sdoi2012-chess/">
 
 
 
@@ -123,7 +126,7 @@
   };
 </script>
 
-  <title>Tag: 杂题 | Blog of tyqtyq's</title>
+  <title>「SDOI2012」象棋 题解 | Blog of tyqtyq's</title>
   
 
 
@@ -171,7 +174,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,7 +250,7 @@
         
         
           
-          <li class="menu-item menu-item-tags menu-item-active">
+          <li class="menu-item menu-item-tags">
 
     
     
@@ -335,80 +338,225 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>杂题<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/solution-sdoi2012-chess/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="tyqtyq">
+      <meta itemprop="description" content="qwq">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of tyqtyq's">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/solution-wc2005-friendly-animals/" itemprop="url">
-            
-              <span itemprop="name">「WC2005」友好的生物 题解</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">「SDOI2012」象棋 题解
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-02-22T20:04:16+08:00" content="2020-02-22">
-          02-22
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2020-02-24 13:53:43 / Modified: 14:07:34" itemprop="dateCreated datePublished" datetime="2020-02-24T13:53:43+08:00">2020-02-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             Views:  
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="题意"><a href="#题意" class="headerlink" title="题意"></a>题意</h2><p>给定一个 $n\times m$ 的棋盘, 棋盘上有 $k$ 颗棋子和若干有障碍格子. 不妨设棋盘左上角格子坐标为 $(1, 1)$, 右下角格子坐标为 $(n, m)$. 参数 $a$, $b$ 规定了所有棋子的走法: 在 $(x, y)$ 的棋子下一步能走到 $(x + a, y + b)$, $(x + a, y - b)$, $(x –  a, y + b)$, $(x – a, y – b)$, $(x + b, y + a)$, $(x + b, y - a)$, $(x – b, y +  a)$, $(x – b, y – a)$这八个格子中的一个, 棋子任何时候不能跃出棋盘或走到有障碍的格子上. 求出最少步数将这些棋子移动至特定位置. 注意这 $k$ 颗棋子是<strong>相同的</strong>, 并且移动过程中<strong>不能</strong>出现多颗棋子同时在某一格的情况</p>
+<h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>关于这道题, 我们可以发现移动顺序不会改变答案, 具体来说, 我们有以下引理成立:</p>
+<ul>
+<li>对于一个移动过程中的任意一个移动, 若其到达的位置上有一个棋子, 则该方案要么不能将所有棋子移动到最终位置, 要么可以通过改变顺序使这一次移动合法</li>
+</ul>
+<p>证明: </p>
+<p>考虑到达位置上的那个棋子, 如果它没有到达最终位置, 则我们考虑将该棋子移至下一步, 如果下一步还有没有到达最终位置的棋子, 则也移动它</p>
+<p>否则直接调换这两个棋子的移动顺序即可</p>
+<p>好的我们去除了题目中的要求: 「移动过程中不能出现多颗棋子同时在某一格的情况」, 接下来考虑题目被我们转化成了什么样子:</p>
+<p>给定$k$个起始点和它们到达$k$个终点的步数, 求一种移动方案, 使得这种移动方案能将所有起始点移动到终点(保证有方案), 其次使得所花费的步数最少.</p>
+<p>于是我们把这道题目转化为了一个费用流问题, 具体的, 我们建立超级源点$S$, 超级汇点$T$, 接下来连接三类边</p>
+<ol>
+<li><p>$S\rightarrow$所有起始点, 这类边容量为1, 费用为0</p>
+</li>
+<li><p>每一个起始点$\rightarrow$每一个它能够到达的终点, 这类边容量为1, 费用为所消耗的步数</p>
+</li>
+<li><p>所有终点$\rightarrow T$, 这类边容量为1, 费用为0</p>
+</li>
+</ol>
+<p><del>在新图上跑费用流即可AC</del></p>
+<p>要是这道题有这么简单就好了</p>
+<p>如果你使用了一般的EK+SPFA, 你会像我这样:</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/ue09qnc2.png" alt></p>
+<p>接下来我们考虑改进算法, ouuan在<a href="https://www.luogu.com.cn/discuss/show/161006" target="_blank" rel="noopener">这篇帖子</a>中说道:</p>
+<p>常见费用流算法(把 Dinic 的 BFS 改成求最短路)复杂度上界是 $O(nmf)$,其中 $f$ 是最大流。</p>
+<p><del>于是我们点进了下面的链接学习了那种方法并且AC本题</del></p>
+<p>我不会那种方法&gt;_&lt; 于是使用了Dijkstra跑最短路, 事实上一般的Dijkstra是不能跑的, 但是我在<a href="https://www.luogu.com.cn/blog/Bartholomew/solution-p3381" target="_blank" rel="noopener">洛谷上费用流模板中的题解</a>中找到了这种神仙做法(神仙也可以用 isap hlpp 吊打窝 /kk)</p>
+<p><del>如果我讲得不太好可以直接看上面那篇博客 /kel</del></p>
+<p>具体来说, 我们定义势函数$h(i)$使得$e’(u,v)=e(u,v)+h(u)-h(v)$, 最后对最短路的影响可以强行考虑掉, 且$e’(u,v)$恒非负, 就可Dijkstra了</p>
+<p>接下来我们发现$h(i)=mindis(u)$是成立的, 但那样的话你还要跑SPFA求最短路</p>
+<p>因此我们转而考虑$h(i)=mindis_{round-1}(u)$, 其中$mindis_{round-1}(u)$指上一次增广时$S \rightarrow u$的最短路(不存在为0), 我们发现这也是成立的, 具体来说, 我们考虑每条边$e(u,v)$.</p>
+<ul>
+<li>若$e(u,v)$在上一次增广时存在, 那么显然满足性质</li>
+<li>否则$e(u,v)$在最短路上, 也可证明$e’(u,v) \geq 0$</li>
+</ul>
+<p>于是我们的势算法成立, 用Dijkstra替换SPFA即可在luogu上AC本题</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p><a href="code.cpp">code</a></p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/费用流-卡常/" rel="tag"># 费用流, 卡常</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/solution-cf1288A-deadline/" rel="next" title="「CF1288A」Deadline 题解">
+                <i class="fa fa-chevron-left"></i> 「CF1288A」Deadline 题解
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -428,8 +576,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -498,6 +655,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题意"><span class="nav-number">1.</span> <span class="nav-text">题意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解法"><span class="nav-number">2.</span> <span class="nav-text">解法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -657,6 +831,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -672,6 +850,37 @@
 
   
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '39f6deb96f5707b8fce0',
+    clientSecret: '34b4588742902eece36f9327fdb01237c7518500',
+    repo: 'oiertyq.github.io',
+    owner: 'oiertyq',
+    admin: ['oiertyq'],
+    id: md5(location.pathname),
+    
+      language: window.navigator.language || window.navigator.userLanguage,
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
 
 
   

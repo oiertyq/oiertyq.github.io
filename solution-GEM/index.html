@@ -96,24 +96,25 @@
 
 
 
-  <meta name="description" content="qwq">
-<meta name="keywords" content="blog OI tyqtyq">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog of tyqtyq&#39;s">
-<meta property="og:url" content="http://oiertyq.github.io/tags/杂题/index.html">
+  <meta name="description" content="对于 $f(i,j) = \min\limits_{j!=t}\{f(k, t)\}$ 的一些优化思路和写法">
+<meta name="keywords" content="dp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「BOI 2003」GEM 题解">
+<meta property="og:url" content="http://oiertyq.github.io/solution-GEM/index.html">
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
-<meta property="og:description" content="qwq">
+<meta property="og:description" content="对于 $f(i,j) = \min\limits_{j!=t}\{f(k, t)\}$ 的一些优化思路和写法">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2020-02-24T05:58:01.842Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog of tyqtyq&#39;s">
-<meta name="twitter:description" content="qwq">
+<meta name="twitter:title" content="「BOI 2003」GEM 题解">
+<meta name="twitter:description" content="对于 $f(i,j) = \min\limits_{j!=t}\{f(k, t)\}$ 的一些优化思路和写法">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/tags/杂题/">
+  <link rel="canonical" href="http://oiertyq.github.io/solution-GEM/">
 
 
 
@@ -123,7 +124,7 @@
   };
 </script>
 
-  <title>Tag: 杂题 | Blog of tyqtyq's</title>
+  <title>「BOI 2003」GEM 题解 | Blog of tyqtyq's</title>
   
 
 
@@ -171,7 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,7 +248,7 @@
         
         
           
-          <li class="menu-item menu-item-tags menu-item-active">
+          <li class="menu-item menu-item-tags">
 
     
     
@@ -335,80 +336,220 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>杂题<small>Tag</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://oiertyq.github.io/solution-GEM/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="tyqtyq">
+      <meta itemprop="description" content="qwq">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of tyqtyq's">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/solution-wc2005-friendly-animals/" itemprop="url">
-            
-              <span itemprop="name">「WC2005」友好的生物 题解</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">「BOI 2003」GEM 题解
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-02-22T20:04:16+08:00" content="2020-02-22">
-          02-22
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2020-02-24 13:22:12 / Modified: 13:58:01" itemprop="dateCreated datePublished" datetime="2020-02-24T13:22:12+08:00">2020-02-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             Views:  
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>对于 $f(i,j) = \min\limits_{j!=t}\{f(k, t)\}$ 的一些优化思路和写法</p>
+<a id="more"></a>
+<h2 id="题意"><a href="#题意" class="headerlink" title="题意"></a>题意</h2><p>给定一棵树, 要求你为树上的结点标上权值, 权值可以是任意的正整数. 但是相临的两个结点不能标上相同的权值. 要求一种方案, 使得整棵树的总价值最小. 输出这个总价值即可.</p>
+<h2 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h2><p>关于这道题, 很容易想到是用DP, 那么设状态为 $dp[i][j]$ 表示若节点 $i$ 选择权值 $j$, $i$ 的子树的最小权值和(注意 $j$ 是小于$O(\log n)$级别的, 文末附有反例), 为了方便我们设$S_k = \{dp[k][x] | x\in\mathbb{N}^+\}$</p>
+<p>那么易得一个转移方程:</p>
+<p>$dp[i][j] = \sum\limits_{k \in son(i)} \min\limits_{t\not=j}\{dp[k][t]\}$</p>
+<p>容易发现, 后面那个 $\min$ 是只有一个限制的, 即 $\min\limits_{t\not=j}\{dp[k][t]\}$ <strong>无论</strong> $j$ 如何改变, 都(要么是 $S_k$ 中的最小值, 要么是其中的次小值), 因此我们可以<strong>简化状态</strong>, 具体来说, 对于每个 $S_k$, 仅储存其最小值, 最小值取到的位置和次小值, 那么每次更新节点 $i$ 时, 考虑如下三种情况:</p>
+<ol>
+<li><p>节点 $i$ 取(最小的, 其儿子中没有取到的)的值 (可能作为最小值)</p>
+</li>
+<li><p>节点 $i$ 取(次小的, 其儿子中没有取到的)的值 (可能作为次小值)</p>
+</li>
+<li><p>节点 $i$ 取一个其儿子中取到的值, 那么所有(最小值在该值取到的)的儿子都要改取次小值</p>
+</li>
+</ol>
+<p>于是就得到了一个正确性完全没有问题的 $O(n)$ 算法.</p>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p><a href="code.cpp">code</a></p>
+<h2 id="Hack-数据和思路"><a href="#Hack-数据和思路" class="headerlink" title="Hack 数据和思路"></a>Hack 数据和思路</h2><p>test.in</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line">62</span><br><span class="line">1 2</span><br><span class="line">1 3</span><br><span class="line">1 4</span><br><span class="line">1 5</span><br><span class="line">1 6</span><br><span class="line">1 7</span><br><span class="line">1 8</span><br><span class="line">1 9</span><br><span class="line">1 10</span><br><span class="line">1 11</span><br><span class="line">1 12</span><br><span class="line">1 13</span><br><span class="line">1 14</span><br><span class="line">1 15</span><br><span class="line">1 16</span><br><span class="line">1 17</span><br><span class="line">1 18</span><br><span class="line">1 19</span><br><span class="line">1 20</span><br><span class="line">1 21</span><br><span class="line">1 22</span><br><span class="line">1 23</span><br><span class="line">1 24</span><br><span class="line">1 25</span><br><span class="line">1 26</span><br><span class="line">1 27</span><br><span class="line">1 28</span><br><span class="line">1 29</span><br><span class="line">29 30</span><br><span class="line">29 31</span><br><span class="line">29 32</span><br><span class="line">1 33</span><br><span class="line">33 34</span><br><span class="line">33 35</span><br><span class="line">33 36</span><br><span class="line">33 37</span><br><span class="line">33 38</span><br><span class="line">33 39</span><br><span class="line">33 40</span><br><span class="line">33 41</span><br><span class="line">33 42</span><br><span class="line">33 43</span><br><span class="line">33 44</span><br><span class="line">33 45</span><br><span class="line">43 46</span><br><span class="line">43 47</span><br><span class="line">43 48</span><br><span class="line">44 49</span><br><span class="line">44 50</span><br><span class="line">44 51</span><br><span class="line">45 52</span><br><span class="line">45 53</span><br><span class="line">45 54</span><br><span class="line">1 55</span><br><span class="line">1 56</span><br><span class="line">55 57</span><br><span class="line">55 58</span><br><span class="line">55 59</span><br><span class="line">56 60</span><br><span class="line">56 61</span><br><span class="line">56 62</span><br></pre></td></tr></table></figure>
+<p>test.out</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">73</span><br></pre></td></tr></table></figure>
+<p>给出一种答案为73的构造:</p>
+<p>2-28,34-42,46-54,30-32,57-62填1, 总权值54</p>
+<p>43-45,29,55-56填2, 总权值12</p>
+<p>33填3, 总权值3</p>
+<p>1填4, 总权值4</p>
+<p>总和为54+12+3+4=73</p>
+<p>思路就是让一个节点(假设你想使其权值为 $k$ )和 $k-1$ 个节点相连, 并且它们在最优方案中的权值为 $1\sim k-1$. 但是我们设 $f_i$ 为这样构造所需节点数的一个<strong>下界</strong>, 那么有 $f_i = (\sum\limits_{j\in[1,k)} f_j) + 1 = 2^{i-2}\times(f_1+1) (i\ge3)$, 所以最开始 $dp[i][j]$ 的 $j$ 是小于 $O(\log n)$ 级别的</p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/dp/" rel="tag"># dp</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/learning-strings/" rel="next" title="字符串学习笔记">
+                <i class="fa fa-chevron-left"></i> 字符串学习笔记
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/solution-cf1288A-deadline/" rel="prev" title="「CF1288A」Deadline 题解">
+                「CF1288A」Deadline 题解 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -428,8 +569,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -498,6 +648,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题意"><span class="nav-number">1.</span> <span class="nav-text">题意</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解法"><span class="nav-number">2.</span> <span class="nav-text">解法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hack-数据和思路"><span class="nav-number">4.</span> <span class="nav-text">Hack 数据和思路</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -657,6 +824,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -672,6 +843,37 @@
 
   
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '39f6deb96f5707b8fce0',
+    clientSecret: '34b4588742902eece36f9327fdb01237c7518500',
+    repo: 'oiertyq.github.io',
+    owner: 'oiertyq',
+    admin: ['oiertyq'],
+    id: md5(location.pathname),
+    
+      language: window.navigator.language || window.navigator.userLanguage,
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
 
 
   
