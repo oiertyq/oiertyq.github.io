@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
 <meta property="og:description" content="字符串毒瘤!">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-03-05T04:19:18.526Z">
+<meta property="og:updated_time" content="2020-03-08T23:55:29.224Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="字符串学习笔记">
 <meta name="twitter:description" content="字符串毒瘤!">
@@ -416,7 +416,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2020-03-05 12:19:18" itemprop="dateModified" datetime="2020-03-05T12:19:18+08:00">2020-03-05</time>
+                <time title="Modified: 2020-03-09 07:55:29" itemprop="dateModified" datetime="2020-03-09T07:55:29+08:00">2020-03-09</time>
               
             
           </span>
@@ -482,6 +482,10 @@
 </li>
 <li><a href="https://www.luogu.com.cn/problem/P5353" target="_blank" rel="noopener">「模板」树上后缀排序</a><ul>
 <li>对 Trie 树的排序, 我们每次从每个点到 $2^k$级祖先的路径扩展到 $2^{k+1}$级祖先. 那么进行三关键字排序: $(rk(1\sim2^k)$, $rk(2^k\sim2^{k+1})$, $sa(1\sim2^k)$). (注意第二关键字是<strong>没有重复的</strong>, 即赋值时不需考虑上一个串与这个排名是否相同)</li>
+</ul>
+</li>
+<li><a href="https://www.luogu.com.cn/problem/P1117" target="_blank" rel="noopener">「NOI2016」优秀的拆分</a><ul>
+<li>显然我们只需要求出每个位置开始和结束有多少 AA 串题目就做完了. 我们可以枚举 AA 串长度$2 \times Len$, 取每$k \times Len$点为关键点(每个长度为$2 \times Len$的串必然跨越两个相邻关键点)转化为相邻点对之间问题. 注意到$\sum\limits_{i \in [1, n]} \frac{n}{i} = nH_n \in O(n\log n) $</li>
 </ul>
 </li>
 </ul>
@@ -618,7 +622,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -649,7 +653,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">8</span>
+                      
+                    
+                    <span class="site-state-item-count">9</span>
                     <span class="site-state-item-name">tags</span>
                   
                 </div>
