@@ -96,25 +96,25 @@
 
 
 
-  <meta name="description" content="Play games 	 		function toload(p) {             window.location.href=p;         } 		var cnt = [0]; var nw=0, nt=1;  		var lim = 10 ; var tms = 0;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		va">
+  <meta name="description" content="window.location.href=&apos;https://www.vijos.org/d/OLiveOJ/&apos;; 		 	 	 	Emmm?Never Get Here!">
 <meta name="keywords" content="blog OI tyqtyq">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Blog of tyqtyq&#39;s">
-<meta property="og:url" content="http://oiertyq.github.io/about/Games/game00.html">
+<meta property="og:url" content="http://oiertyq.github.io/about/non-display/OJ/olive.html">
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
-<meta property="og:description" content="Play games 	 		function toload(p) {             window.location.href=p;         } 		var cnt = [0]; var nw=0, nt=1;  		var lim = 10 ; var tms = 0;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		va">
+<meta property="og:description" content="window.location.href=&apos;https://www.vijos.org/d/OLiveOJ/&apos;; 		 	 	 	Emmm?Never Get Here!">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-12T09:08:33.951Z">
+<meta property="og:updated_time" content="2019-02-19T13:40:13.477Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog of tyqtyq&#39;s">
-<meta name="twitter:description" content="Play games 	 		function toload(p) {             window.location.href=p;         } 		var cnt = [0]; var nw=0, nt=1;  		var lim = 10 ; var tms = 0;  		var Things = [&quot;蛤&quot;, &quot;wyx&quot;, &quot;升级wyx&quot;, &quot;%wyx&quot;]; 		va">
+<meta name="twitter:description" content="window.location.href=&apos;https://www.vijos.org/d/OLiveOJ/&apos;; 		 	 	 	Emmm?Never Get Here!">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/about/Games/game00.html"/>
+  <link rel="canonical" href="http://oiertyq.github.io/about/non-display/OJ/olive.html"/>
 
 
 
@@ -394,7 +394,17 @@
       
       
         
-          <li>GAMES</li>
+          
+            
+          
+          <li><a href="/about/non-display/">NON-DISPLAY</a></li>
+        
+      
+    
+      
+      
+        
+          <li>OJ</li>
         
       
     
@@ -404,7 +414,7 @@
           
             
           
-          <li><a href="/about/game00.html/">GAME00.HTML</a></li>
+          <li><a href="/about/non-display/olive.html/">OLIVE.HTML</a></li>
         
       
     
@@ -421,99 +431,15 @@
       <div class="post-body">
         
         
-          <html>
-<head><meta name="generator" content="Hexo 3.8.0">
-	<title>Play games</title>
-	<script text="text/javascript">
-		function toload(p) {
-            window.location.href=p;
-        }
-		var cnt = [0]; var nw=0, nt=1; 
-		var lim = 10 ; var tms = 0; 
-		var Things = ["蛤", "wyx", "升级wyx", "%wyx"];
-		var xs = [0.8, 1.1, 1.6, 50];
-		var st = [-960, 10, 1000, 1000000] ;
-		var btms = [0, 0, 0, 0];
-		var hour = 0, minute = 0, second = 0;
-		var t = 0;
-		var flag1;
-		function minus() {tms=tms-1;}
-		function studyTime() {
-		    hour=parseInt(t/60/60);
-		    minute=parseInt(t/60%60);
-		    second=parseInt(t%60);
-		    document.getElementById('S').innerHTML=second;
-		    document.getElementById('H').innerHTML=hour;
-		    document.getElementById('M').innerHTML=minute;
-		    t = t + 1;
-		    flag1 = setTimeout("studyTime()", 1000);          
-		}
-		function upd(){
-			tms += 1 ;
-			if(tms >= lim) {
-				alert("You probabaly use the clicker") ;
-				alert("Please DON'T USE it AGAIN!") ;
-				toload("http://oiertyq.github.io/about/Games/game00.html") ;
-			}
-			if(nw == 100){
-				alert("You win!") ;
-				alert("You cost "+document.getElementById('H').innerHTML+"Hours "+document.getElementById('M').innerHTML+"Minutes "+document.getElementById('S').innerHTML+"Seconds.") ;
-			}
-			if(cnt[nw]>=10*Math.pow(10, nw*2)) nw=nw+1, cnt[nw]=0;
-			var p = document.getElementById("wyxtxdy") ;
-			p.innerHTML = cnt[nw] ; p = document.getElementById("wyxddyq") ;
-			p.innerHTML = nw ; p = document.getElementById("awsl") ;
-			p.innerHTML = nt-1 ;
-			setTimeout(minus, 1000) ;
-		}
-		function add(){
-			if(nw == 0 && cnt[nw] == 0) studyTime() ;
-			cnt[nw]=cnt[nw]+nt; 
-			upd() ;
-		}
-		function get(n){
-			return st[n] * Math.pow(xs[n], btms[n]); upd() ;
-		}
-		function Buy(p){
-			var cost = get(p) ;
-			if(nt < 2 && p == 0){
-				alert("You have not get enough wyx to Buy '蛤'") ;
-				return ;
-			}
-			if(cnt[nw] >= cost){
-				cnt[nw] -= cost;
-				btms[p]=btms[p]+1;
-				if(p == 0) nt*=0.5 ;
-				if(p == 1) ++nt ;
-				if(p == 2) nt*=2 ;
-				if(p == 3) nt*=1024 ;
-				upd() ;
-			}
-			return ;
-		}
-		function show(){
-			alert("0:2'7''") ;
-		}
-		alert("%wyx!") ;
-	</script>
-</head>
-<body>
-	<style>
-		p{padding:0px; margin:0px;display: inline;}
-	</style>
-	<p id="wyxtxdy">0 </p><br><p id="wyxddyq">0</p><p>Times & </p><p id="awsl">0</p><p>*wyx</p> <br>
-	<button onclick="add()">add the value!</button>
-	<div>
-		<button onclick="Buy(0)">蛤</button>
-		<button onclick="Buy(1)">wyx</button>
-		<button onclick="Buy(2)">Update wyx!</button>
-		<button onclick="Buy(3)">%wyx</button>
-	</div>
-	<button onclick="show()">Show record</button>
-	<p id="H">0</p><p> Hours </p><p id="M">0</p><p> Minutes </p><p id="S">0</p><p> Seconds</p><br>
-	
-	<button onclick="toload('Helper-EN.txt')">Show helper</button><br>
-	<button onclick="toload('mailto: tyq11186192@outlook.com')">Connect tyqtyq(you can change the record if you provide proof)</button>
+          <!DOCTYPE html>
+<html>
+	<head><meta name="generator" content="Hexo 3.8.0">
+		<script language="javascript" type="text/javascript"> 
+			window.location.href='https://www.vijos.org/d/OLiveOJ/';
+		</script>
+	</head>
+	<body>
+	<p>Emmm?Never Get Here!</p>
 	</body>
 </html>
         
@@ -542,7 +468,17 @@
       
       
         
-          <li>GAMES</li>
+          
+            
+          
+          <li><a href="/about/non-display/">NON-DISPLAY</a></li>
+        
+      
+    
+      
+      
+        
+          <li>OJ</li>
         
       
     
@@ -552,7 +488,7 @@
           
             
           
-          <li><a href="/about/game00.html/">GAME00.HTML</a></li>
+          <li><a href="/about/non-display/olive.html/">OLIVE.HTML</a></li>
         
       
     

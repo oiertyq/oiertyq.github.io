@@ -96,25 +96,25 @@
 
 
 
-  <meta name="description" content="window.location.href=&apos;https://www.jkfz.cf/&apos;; 		 	 	 	Emmm?Never Get Here!">
+  <meta name="description" content="PreViews 		 			function get(p) { 				if(p == 0) return &quot;https://www.bilibili.com/video/av59111196&quot; ; 				if(p == 1) return &quot;https://www.bilibili.com/video/av3060153&quot;  ; 				if(p == 2) return &quot;htt">
 <meta name="keywords" content="blog OI tyqtyq">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Blog of tyqtyq&#39;s">
-<meta property="og:url" content="http://oiertyq.github.io/about/OJ/mine.html">
+<meta property="og:url" content="http://oiertyq.github.io/about/non-display/index.html">
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
-<meta property="og:description" content="window.location.href=&apos;https://www.jkfz.cf/&apos;; 		 	 	 	Emmm?Never Get Here!">
+<meta property="og:description" content="PreViews 		 			function get(p) { 				if(p == 0) return &quot;https://www.bilibili.com/video/av59111196&quot; ; 				if(p == 1) return &quot;https://www.bilibili.com/video/av3060153&quot;  ; 				if(p == 2) return &quot;htt">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-08-10T04:56:26.333Z">
+<meta property="og:updated_time" content="2019-08-11T16:58:59.535Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blog of tyqtyq&#39;s">
-<meta name="twitter:description" content="window.location.href=&apos;https://www.jkfz.cf/&apos;; 		 	 	 	Emmm?Never Get Here!">
+<meta name="twitter:description" content="PreViews 		 			function get(p) { 				if(p == 0) return &quot;https://www.bilibili.com/video/av59111196&quot; ; 				if(p == 1) return &quot;https://www.bilibili.com/video/av3060153&quot;  ; 				if(p == 2) return &quot;htt">
 
 
 
 
 
 
-  <link rel="canonical" href="http://oiertyq.github.io/about/OJ/mine.html"/>
+  <link rel="canonical" href="http://oiertyq.github.io/about/non-display/"/>
 
 
 
@@ -394,18 +394,11 @@
       
       
         
-          <li>OJ</li>
+          <li>NON-DISPLAY</li>
         
       
     
       
-      
-        
-          
-            
-          
-          <li><a href="/about/mine.html/">MINE.HTML</a></li>
-        
       
     
   </ul>
@@ -421,15 +414,61 @@
       <div class="post-body">
         
         
-          <!DOCTYPE html>
-<html>
+          <html>
 	<head><meta name="generator" content="Hexo 3.8.0">
-		<script language="javascript" type="text/javascript"> 
-			window.location.href='https://www.jkfz.cf/';
+		<title>PreViews</title>
+		<script type="text/javascript">
+			function get(p) {
+				if(p == 0) return "https://www.bilibili.com/video/av59111196" ;
+				if(p == 1) return "https://www.bilibili.com/video/av3060153"  ;
+				if(p == 2) return "https://www.bilibili.com/video/av21551703" ;
+				if(p == 3) return "https://www.bilibili.com/video/av60660066" ;
+				if(p == 4) return "https://www.bilibili.com/video/av57785834" ;
+				return "发现彩蛋!" ;
+			}
+			function gt_html() {
+				p = Math.floor(5*Math.random()) ;
+				if( get(p) == "发现彩蛋!") {alert(get(p)); p = 1 ;}
+				document.getElementById("load").src=get(p) ;
+			}
+			function load(p) {
+				document.getElementById("load").src=p ;
+			}
+			function show(){
+				if(document.getElementById("loader").style.display=="inline") {
+					//alert("Hide loader") ;
+					document.getElementById("loader").style.display="none" ;
+					document.getElementById("helpers").style.display="inline" ;
+					document.getElementById("qwqqwq").innerHTML = "Show loader" ;
+				}
+				else {
+					//alert("Hide options") ;
+					document.getElementById("loader").style.display="inline" ;
+					document.getElementById("helpers").style.display="none" ;
+					document.getElementById("qwqqwq").innerHTML = "Show options" ;
+				}
+				return ;
+			}
+			function jmp() {
+				window.location.href='https://oiertyq.github.io/about/game.html';
+			}
+			alert("欢迎来到tyqtyq的主页") ;
 		</script>
 	</head>
 	<body>
-	<p>Emmm?Never Get Here!</p>
+		<button onclick="show()"><p id="qwqqwq">Show options</p></button><br>
+		<div id="helpers" style="display: none"> 
+			<button onclick="load('mailto: tyq11186192@outlook.com')">Email me!</button><br>
+			<button onclick="load('https://oiertyq.github.io/%E7%BD%91%E7%BB%9C%E6%B5%81%E5%AE%9A%E7%90%86%E6%80%BB%E7%BB%93/'); show()">Load 网络流定理总结 at this page</button><br>
+			<button onclick="load('https://jkfz.cf/'); show();">Load JKFZOJ at this page</button><br>
+			<button onclick="load('https://www.vijos.org/d/OLiveOJ/'); show();">Load My OJ at this page</button><br>
+			<button onclick="load('https://acg.toubiec.cn/random'); show();">Load Random Pictures</button><br>
+			<button onclick="gt_html(); show();">Look My Favourite Videos!</button><br>
+			<button onclick="jmp();">Jump to my game!</button>
+		</div>
+		<div id="loader" style="display: inline">
+			<iframe id="load" sandbox="allow-scripts allow-same-origin allow-popups" width="720px" height="432px" scrolling="yes" src="https://acg.toubiec.cn/random">qwq - This is the page loader.</iframe><br>
+		</div>
 	</body>
 </html>
         
@@ -458,18 +497,11 @@
       
       
         
-          <li>OJ</li>
+          <li>NON-DISPLAY</li>
         
       
     
       
-      
-        
-          
-            
-          
-          <li><a href="/about/mine.html/">MINE.HTML</a></li>
-        
       
     
   </ul>
