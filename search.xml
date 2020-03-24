@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[learning-graph-theories]]></title>
+    <url>%2Flearning-graph-theories%2F</url>
+    <content type="text"><![CDATA[图论复习. 新知识最小树形图算法流程: 对于每个点找到其最小的入边 $pre_i$ 若有除 $root$ 外的孤立点, 转 x. 否则令 $ans \leftarrow ans + \sum edge(pre_i, i)$ 找出所有图中的 $pre$ 形成的环 若没有环, 转 x. 对于每个环, 算法结束, 输出 $ans$ 作为答案即可]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[一些要记住的东西]]></title>
     <url>%2FThose-conclusions-need-to-be-remembered%2F</url>
     <content type="text"><![CDATA[那些重要的结论和一些提醒 &gt;_&lt; 提醒 Think twice, code once. 结论最好证一证, 证不了也要感性理解一下. 别颓 结论网络流类二分图类 对于二分图, 最小点覆盖 = 最大匹配 = n-最大独立集. 霍尔定理: 设一个二分图左侧一点集{S},与其直接相连的点集为{T},若所有|\{S\}|≤|\{T\}|,则至少有一个大小为|左侧点集|的匹配. 其他类 问题不好考虑的时候就试试拆点. 网络流题记得计算空间不然多 memset 几遍就TLE了.]]></content>
