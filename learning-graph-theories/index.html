@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Blog of tyqtyq&#39;s">
 <meta property="og:description" content="图论复习.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-03-26T08:31:34.798Z">
+<meta property="og:updated_time" content="2020-03-26T14:34:36.987Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="图论复习笔记">
 <meta name="twitter:description" content="图论复习.">
@@ -416,7 +416,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2020-03-26 16:31:34" itemprop="dateModified" datetime="2020-03-26T16:31:34+08:00">2020-03-26</time>
+                <time title="Modified: 2020-03-26 22:34:36" itemprop="dateModified" datetime="2020-03-26T22:34:36+08:00">2020-03-26</time>
               
             
           </span>
@@ -487,6 +487,7 @@
 <h2 id="P1264-K-联赛"><a href="#P1264-K-联赛" class="headerlink" title="P1264 K-联赛"></a>P1264 K-联赛</h2><p>考虑你想判断球队$k$是否能夺冠, 很明显接下来的比赛中它必须胜利. 然后剩下一个无向图需要定向并判断最高分数是否超过一个定值(不妨设它为$k$). 我们设$f(i)$表示第$i$条边抽象出的点, $g(i)$表示第$i$个点抽象出的点. 我们连四类边: $(S, f(i), edge_i)$; $g(i), t, k-w_i$; $(f(i), start_i, inf)$; $f(i), ver_i, inf$; 然后判断是否满流即可.</p>
 <h2 id="P1300-城市街道交通费系统"><a href="#P1300-城市街道交通费系统" class="headerlink" title="P1300 城市街道交通费系统"></a>P1300 城市街道交通费系统</h2><p>该做法仅供娱乐. 将每个点拆点为面朝4个方向的点. 然后左右转和直行连相应的边并且特判可以掉头的情况跑一遍最短路就可以了.</p>
 <h2 id="P1477-NOI2008-假面舞会"><a href="#P1477-NOI2008-假面舞会" class="headerlink" title="P1477 [NOI2008]假面舞会"></a>P1477 [NOI2008]假面舞会</h2><p>先特判是一堆链的情况. 我们对于关系$(a, b)$加边$(a, b, 1)$,$(b,a,-1)$. 然后我们dfs每个连通块, 那么起点搜到一个点时候的上次搜到这个点保存的权值和$k \not=0$, 就有一个有$|x-k|$个点的环, 其中$x$为搜到这个点时边的权值和.</p>
+<h1 id="P1979-华容道"><a href="#P1979-华容道" class="headerlink" title="P1979 华容道"></a>P1979 华容道</h1><p>考虑建图. 明显我们的第一步是将空格移到开始棋子旁边. 我们发现可以抽象一个节点: $(n, m, k)$, 表示目标棋子在$(n, m)$, 空格在棋子上方/下方/左方/右方. 那么我们连边: $(n, m, k) \sim (n, m, x) (x \not= k)$, 表示把棋子在这个格子上下左右调整; 连边$(n, m, k)\sim (p,q,)$</p>
 
       
     </div>
@@ -539,8 +540,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/some-introductions/" rel="prev" title="some-introductions">
-                some-introductions <i class="fa fa-chevron-right"></i>
+              <a href="/some-introductions/" rel="prev" title="个人介绍与友链">
+                个人介绍与友链 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -745,7 +746,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#新知识"><span class="nav-number">1.</span> <span class="nav-text">新知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#最小树形图"><span class="nav-number">1.1.</span> <span class="nav-text">最小树形图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#某些解题方法"><span class="nav-number">1.2.</span> <span class="nav-text">某些解题方法?</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一些口胡"><span class="nav-number">2.</span> <span class="nav-text">一些口胡</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#P1261-服务器储存信息问题"><span class="nav-number">2.1.</span> <span class="nav-text">P1261 服务器储存信息问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1263-宫廷守卫"><span class="nav-number">2.2.</span> <span class="nav-text">P1263 宫廷守卫</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1264-K-联赛"><span class="nav-number">2.3.</span> <span class="nav-text">P1264 K-联赛</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1300-城市街道交通费系统"><span class="nav-number">2.4.</span> <span class="nav-text">P1300 城市街道交通费系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1477-NOI2008-假面舞会"><span class="nav-number">2.5.</span> <span class="nav-text">P1477 [NOI2008]假面舞会</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#新知识"><span class="nav-number">1.</span> <span class="nav-text">新知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#最小树形图"><span class="nav-number">1.1.</span> <span class="nav-text">最小树形图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#某些解题方法"><span class="nav-number">1.2.</span> <span class="nav-text">某些解题方法?</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一些口胡"><span class="nav-number">2.</span> <span class="nav-text">一些口胡</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#P1261-服务器储存信息问题"><span class="nav-number">2.1.</span> <span class="nav-text">P1261 服务器储存信息问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1263-宫廷守卫"><span class="nav-number">2.2.</span> <span class="nav-text">P1263 宫廷守卫</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1264-K-联赛"><span class="nav-number">2.3.</span> <span class="nav-text">P1264 K-联赛</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1300-城市街道交通费系统"><span class="nav-number">2.4.</span> <span class="nav-text">P1300 城市街道交通费系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#P1477-NOI2008-假面舞会"><span class="nav-number">2.5.</span> <span class="nav-text">P1477 [NOI2008]假面舞会</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#P1979-华容道"><span class="nav-number">3.</span> <span class="nav-text">P1979 华容道</span></a></li></ol></div>
             
 
           </div>
