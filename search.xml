@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2Ftest%2F</url>
+    <content type="text"><![CDATA[Test]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Dominating-tree]]></title>
+    <url>%2FDominating-tree%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[个人介绍与友链]]></title>
+    <url>%2Fsome-introductions%2F</url>
+    <content type="text"><![CDATA[个人介绍, 友链和一些其他东西? 个人介绍江西南昌菜鸡~ 有人想找我玩吗~ QQ: $19260817^x \bmod 998244353 = 993950604$ 是 8 位数哦~ 友情链接${\color{black} 犇}{\color{red} {犇犇犇}}$神仙的博客 ${\color{black} B}{\color{red} {illy2007}}$神仙的博客 ${\color{black} C}{\color{red} {aCl_2}}$神仙的博客 ${\color{black} c}{\color{red} {onnect}}$神仙的博客 ${\color{black} C}{\color{red} {SP\text{_}Sept}}$神仙的博客 ${\color{black} K}{\color{red} {irito\text{_}Rvaille}}$人赢的博客 ${\color{black} M}{\color{red} {eatherm}}$神仙的博客 ${\color{black} M}{\color{red} {r\text{_}zherui}}$神仙的博客 ${\color{black} t}{\color{red} {earing}}$神仙的博客 ${\color{black} w}{\color{red} {yxkk}}$学长的博客 ${\color{black} w}{\color{red} {zsCD}}$神仙的博客]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[图论复习笔记]]></title>
+    <url>%2Flearning-graph-theories%2F</url>
+    <content type="text"><![CDATA[图论复习. 新知识最小树形图算法流程: 对于每个点找到其最小的入边$pre_i$. 若有除 $root$ 外的孤立点, 转 7. 否则令$ans \leftarrow ans + \sum edge(pre_i, i)$. 找出所有图中的 $pre$ 形成的环. 若没有环, 转 7. 对每个环及其他点编号为$id_i$. 构造新图$G’(V’, E’)$, $V’ = \{id_x | x \in V\}$, $G = \{(id_u,id_v,edge(u ,v)-edge(pre_v,v)) | (u ,v, edge(u,v) \in E), id_u \not= id_v\}$, 令$G\leftarrow G’$, 转 1. 算法结束, 输出$ans$作为答案即可. 某些解题方法? 遇到某些变相的最短路问题, SPFA 往往比堆优化的 Dijkstra 更易于思考与使用. 遇到边的定向类问题, 往往把边抽象成点向其所连接的两点连边 一些口胡P1261 服务器储存信息问题设$F_x(u)=\min\{dis(u,v) | rk_v=x\}$. 那么$(u, v)$是一组满足性质的点对, 当且仅当$dis(u,v)&lt;F_{rank_v+1}(u)$. 考虑我们做一遍 SPFA 的时候求出答案. 如果$s$不可行, 那么它能松弛到的点明显也不可行, 即不用讲它们加入队列. 那么这样的 SPFA 复杂度由于$rk$值域很小就是$O(CN)$的(其中$C$是某个常数). P1263 宫廷守卫考虑类似车的摆放那题做. 唯一的不同就是可以某行某列会被划分成多个节点. P1264 K-联赛考虑你想判断球队$k$是否能夺冠, 很明显接下来的比赛中它必须胜利. 然后剩下一个无向图需要定向并判断最高分数是否超过一个定值(不妨设它为$k$). 我们设$f(i)$表示第$i$条边抽象出的点, $g(i)$表示第$i$个点抽象出的点. 我们连四类边: $(S, f(i), edge_i)$; $g(i), t, k-w_i$; $(f(i), start_i, inf)$; $f(i), ver_i, inf$; 然后判断是否满流即可. P1300 城市街道交通费系统该做法仅供娱乐. 将每个点拆点为面朝4个方向的点. 然后左右转和直行连相应的边并且特判可以掉头的情况跑一遍最短路就可以了. P1477 [NOI2008]假面舞会先特判是一堆链的情况. 我们对于关系$(a, b)$加边$(a, b, 1)$,$(b,a,-1)$. 然后我们dfs每个连通块, 那么起点搜到一个点时候的上次搜到这个点保存的权值和$k \not=0$, 就有一个有$|x-k|$个点的环, 其中$x$为搜到这个点时边的权值和. P1979 华容道考虑建图. 明显我们的第一步是将空格移到开始棋子旁边. 我们发现可以抽象一个节点: $(n, m, k)$, 表示目标棋子在$(n, m)$, 空格在棋子上方/下方/左方/右方. 那么我们连边: $(n, m, k) \sim (n, m, x) (x \not= k)$, 表示把棋子在这个格子上下左右调整; 连边$(n, m, k)\sim (p,q,x)$, 表示交换目标棋子与空白.]]></content>
+      <tags>
+        <tag>图论</tag>
+        <tag>SPFA</tag>
+        <tag>网络流</tag>
+        <tag>费用流</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[一些要记住的东西]]></title>
+    <url>%2FThose-conclusions-need-to-be-remembered%2F</url>
+    <content type="text"><![CDATA[那些重要的结论和一些提醒 &gt;_&lt; 提醒 Think twice, code once. 结论最好证一证, 证不了也要感性理解一下. 别颓 先想暴力, 然后优化. 优化的方法可能有: 减少无用状态; 推柿子; 找规律; … 结论网络流类二分图类 对于二分图, 最小点覆盖 = 最大匹配 = n-最大独立集. 霍尔定理: 设一个二分图左侧一点集{S},与其直接相连的点集为{T},若所有|\{S\}|≤|\{T\}|,则至少有一个大小为|左侧点集|的匹配. 其他类 问题不好考虑的时候就试试拆点. 网络流题记得计算空间不然多 memset 几遍就TLE了.]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[数论学习笔记]]></title>
+    <url>%2Flearning-number-theories%2F</url>
+    <content type="text"><![CDATA[数论复习笔记, 可能某些结论不会证明. 数论分块$\sum_{i=1}^{n} \lfloor\frac{n}{i}\rfloor \times f(i)$ 在$O(n)$筛出$f(i)$的前缀和后, 可以在单次$O(\sqrt n)$的复杂度下求出上式. 考虑$\lfloor\frac{n}{i}\rfloor$的取值个数. 在 $i \leq \sqrt n$时最多只有$\sqrt n$个$i$, 故最多只有$\sqrt n$个取值. 在$i &gt; \sqrt n$时, $\lfloor\frac{n}{i}\rfloor \leq \frac{n}{i} &lt; \sqrt n$, 故最多只有$\sqrt n-1$个取值. 因此我们可以考虑枚举$\lfloor\frac{n}{i}\rfloor$的取值. 因为函数不下降我们考虑枚举每个取值区间的左右端点. 不妨设某个取值区间的左端点是$l$, 考虑求出该取值区间的右端点$r$. 不妨设$\lfloor\frac{n}{l}\rfloor = k$, 我断言$r = \lfloor\frac{n}{k}\rfloor$. 因为$kr \leq n \leq (k+1)r$, 所以必然在取值区间内. 又$k(r+1) \geq n$所以$r+1$不在取值区间内. 故右端点为$r$. 莫比乌斯反演两个性质: $\sum\limits_{d|n} \mu(d) = [n=1]$ (经常用来展开$[f(n)=1]$) $\sum\limits_{d|n} \varphi(d) = n$ 对于 $\gcd$ 的反演(出现$\gcd$的时候枚举$\gcd$也是一种时常奏效的方法):$\begin{align}f(n) &amp;= \sum\limits_{i \leq a} \sum\limits_{j \leq b} [\gcd(i, j)=n]\\g(n) &amp;= \sum\limits_{n|d} f(d)\\&amp;= \sum\limits_{i \leq a} \sum\limits_{j \leq b} [n|\gcd(i, j)] \\&amp;= \lfloor\frac{a}{n}\rfloor \lfloor\frac{b}{n}\rfloor\\\sum\limits_{n|d} \mu(\frac{d}{n}) g(d) &amp;= \sum\limits_{n|d} \mu(\frac{d}{n})\sum\limits_{d|x} f(x)\\&amp;= \sum\limits_{n|x} f(x) \sum\limits_{\frac{d}{n}|\frac{x}{n}} \mu(\frac{d}{n})\\&amp;= \sum\limits_{n|x} f(x) [x=n] = f(n)\end{align}$ 对于$\sigma_0$的反演 $\begin{align}\sigma_0(xy) &amp;= \sum\limits_{a|x}\sum\limits_{b|y} [\gcd(a, b)=1]\\&amp;=\sum\limits_{a|x}\sum\limits_{b|y}\sum\limits_{d|\gcd(a, b)}\mu(d)\end{align}$ 对于$\varphi$的反演 $\begin{align}\varphi(ij)&amp;=\frac{\varphi(i)\varphi(j)\gcd(i, j)}{\varphi(\gcd(i,j))}\\&amp;=\sum\limits_{d}\varphi(i)\varphi(j)\frac{d}{\varphi(d)} [d = \gcd(i, j)]\\\end{align}$ 反演本质 $\begin{align}g(n) &amp;= \sum\limits_{d|n} f(d)\\ f(n) &amp;= \sum\limits_{d|n} [\frac{n}{d}=1]f(d) \\ &amp;= \sum\limits_{d|n} \sum\limits_{id|n} \mu(i)f(d) \\ &amp;=\sum\limits_{i|n} \mu(i) \sum\limits_{d|\frac{n}{i}} f(d) \\ &amp;=\sum\limits_{d|n} \mu(d) f(\frac{n}{d}) = \sum\limits_{d|n} \mu(\frac{n}{d}) f(d) \end{align}$ 狄利克雷卷积 与 杜教筛下文中的$A$,$B$,$C$均指某积性函数. 狄利克雷卷积定义: $A*B(n) = \sum\limits_{d|n} A(d)B(\frac{n}{d})$ 几个常用的卷积 $\varphi *I = id$ $\mu * I = \epsilon$ $\epsilon * A = A$ $A(BC) = (AB)C$ $AB = BA$ $(A+B)C = AC+B*C$ 杜教筛的原理设$A = B*C$, 于是有 $\begin{align}\sum\limits_{i=1}^{n} A(i) &amp;= \sum\limits_{i=1}^{n} \sum\limits_{d|i} C(d) B(\frac{i}{d})\\&amp;=\sum\limits_{d=1}^{n}C(d)\sum\limits_{k=1}^{\lfloor\frac{n}{d}\rfloor}B(k)\end{align}$ 不妨设$S(n) = \sum\limits_{i=1}^{n} B(i)$所以$C(1)S(n) = \sum\limits_{i=1}^{n}A(i) - \sum\limits_{d=2}^{n}C(d)S(\lfloor\frac{n}{d}\rfloor)$ 若选择一个较好的$C$和$A$, 则可以通过数论分块在$T(n) = O(\frac{n}{\sqrt m}+m)$的时间复杂度内完成此问题, 其中$m$是一个常数, 代表我们需要先使用线性筛筛出$S(1\sim m)$, 可以发现在$m = n^{\frac23}$时算法复杂度为$O(n^\frac23)$为最优.]]></content>
+      <tags>
+        <tag>number-theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[「SDOI2012」象棋 题解]]></title>
+    <url>%2Fsolution-sdoi2012-chess%2F</url>
+    <content type="text"><![CDATA[费用流卡常方法 题意给定一个 $n\times m$ 的棋盘, 棋盘上有 $k$ 颗棋子和若干有障碍格子. 不妨设棋盘左上角格子坐标为 $(1, 1)$, 右下角格子坐标为 $(n, m)$. 参数 $a$, $b$ 规定了所有棋子的走法: 在 $(x, y)$ 的棋子下一步能走到 $(x + a, y + b)$, $(x + a, y - b)$, $(x – a, y + b)$, $(x – a, y – b)$, $(x + b, y + a)$, $(x + b, y - a)$, $(x – b, y + a)$, $(x – b, y – a)$这八个格子中的一个, 棋子任何时候不能跃出棋盘或走到有障碍的格子上. 求出最少步数将这些棋子移动至特定位置. 注意这 $k$ 颗棋子是相同的, 并且移动过程中不能出现多颗棋子同时在某一格的情况 解法关于这道题, 我们可以发现移动顺序不会改变答案, 具体来说, 我们有以下引理成立: 对于一个移动过程中的任意一个移动, 若其到达的位置上有一个棋子, 则该方案要么不能将所有棋子移动到最终位置, 要么可以通过改变顺序使这一次移动合法 证明: 考虑到达位置上的那个棋子, 如果它没有到达最终位置, 则我们考虑将该棋子移至下一步, 如果下一步还有没有到达最终位置的棋子, 则也移动它 否则直接调换这两个棋子的移动顺序即可 好的我们去除了题目中的要求: 「移动过程中不能出现多颗棋子同时在某一格的情况」, 接下来考虑题目被我们转化成了什么样子: 给定$k$个起始点和它们到达$k$个终点的步数, 求一种移动方案, 使得这种移动方案能将所有起始点移动到终点(保证有方案), 其次使得所花费的步数最少. 于是我们把这道题目转化为了一个费用流问题, 具体的, 我们建立超级源点$S$, 超级汇点$T$, 接下来连接三类边 $S\rightarrow$所有起始点, 这类边容量为1, 费用为0 每一个起始点$\rightarrow$每一个它能够到达的终点, 这类边容量为1, 费用为所消耗的步数 所有终点$\rightarrow T$, 这类边容量为1, 费用为0 在新图上跑费用流即可AC 要是这道题有这么简单就好了 如果你使用了一般的EK+SPFA, 你会像我这样: 接下来我们考虑改进算法, ouuan在这篇帖子中说道: 常见费用流算法(把 Dinic 的 BFS 改成求最短路)复杂度上界是 $O(nmf)$,其中 $f$ 是最大流。 于是我们点进了下面的链接学习了那种方法并且AC本题 我不会那种方法&gt;_&lt; 于是使用了Dijkstra跑最短路, 事实上一般的Dijkstra是不能跑的, 但是我在洛谷上费用流模板中的题解中找到了这种神仙做法(神仙也可以用 isap hlpp 吊打窝 /kk) 如果我讲得不太好可以直接看上面那篇博客 /kel 具体来说, 我们定义势函数$h(i)$使得$e’(u,v)=e(u,v)+h(u)-h(v)$, 最后对最短路的影响可以强行考虑掉, 且$e’(u,v)$恒非负, 就可Dijkstra了 接下来我们发现$h(i)=mindis(u)$是成立的, 但那样的话你还要跑SPFA求最短路 因此我们转而考虑$h(i)=mindis_{round-1}(u)$, 其中$mindis_{round-1}(u)$指上一次增广时$S \rightarrow u$的最短路(不存在为0), 我们发现这也是成立的, 具体来说, 我们考虑每条边$e(u,v)$. 若$e(u,v)$在上一次增广时存在, 那么显然满足性质 否则$e(u,v)$在最短路上, 也可证明$e’(u,v) \geq 0$ 于是我们的势算法成立, 用Dijkstra替换SPFA即可在luogu上AC本题 代码code]]></content>
+      <tags>
+        <tag>费用流</tag>
+        <tag>卡常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[「CF1288A」Deadline 题解]]></title>
+    <url>%2Fsolution-cf1288A-deadline%2F</url>
+    <content type="text"><![CDATA[理性愉悦 前置知识: 基本不等式 在$a, b \in \mathbb{R}^{+}$时, $a^2+b^2 \geq 2ab$ 那么它有一个直接的推论: $a+b \geq 2\sqrt{ab}$ 在基本不等式中代入$a=\sqrt{a’}, b=\sqrt{b’}$ 即得 题意给定一个一个常量 $d$, 令 $f:\mathbb{N}^{+} \rightarrow \mathbb{N}^{+}$ 为 $f(x) = x+\lceil\frac{d}{x+1}\rceil$, 判断是否存在一个 $a$, 使得 $f(a) \leq n$. 解法在以下推倒中, 均设 $f(x’)$为$x’+\lceil\frac{d}{x’}\rceil$, 求出其在 $x’ &gt; 0$ 时的最小值减一即可, 特别的, $x’=0$ 时原答案为 $1+\lceil\frac{d}{2}\rceil$, $x’=-1$ 时原答案为 $d$, 均不如下文求出的 $\lceil2\sqrt{d}\rceil-1$ 优 ($d\in\mathbb{N}^{+}$ 时) 那么我们只需要求出 $f(x)$ 的最小值即可, 先将 $f(x)$ 变形, 有: $f(x) = x+\lceil\frac{d}{x}\rceil = \lceil\frac{d+x^2}{x}\rceil$ 对于分子运用基本不等式, 有 $f(x) \geq \lceil \frac{2x\sqrt{d}}{x}\rceil = \lceil2\sqrt{d}\rceil$ 同时, 代入 $x = \lceil\sqrt{d}\rceil$ 可以得到此最小值, 证明如下: 已知: $d \in \mathbb{N}^{+}$ 求证: $\lceil\sqrt{d}\rceil + \lceil\frac{d}{\lceil\sqrt{d}\rceil}\rceil = \lceil2\sqrt{d}\rceil$证:不妨设小于$d$的最大完全平方数为$n^2$那么有$d = n^2 + k$($d&lt;(n+1)^2, k \geq 0$)若 $k = 0$, 则上式显然($\sqrt{d}=n$)若 $n \geq k &gt; 0$, 则$\lceil\sqrt{d}\rceil = n+1$, $2\sqrt{d} &lt; 2\sqrt{n^2+n+\frac{1}{4}} = 2(n+\frac{1}{2}) = 2n+1, \lceil2\sqrt{d}\rceil = 2n+1$又因为$\lceil\sqrt{d}\rceil\lfloor\sqrt{d}\rfloor = n\times(n+1) = n^2+n \geq n^2+k = d$所以$\lceil\frac{d}{\lceil\sqrt{d}\rceil}\rceil = \lfloor\sqrt{d}\rfloor = n$, 原式成立$k &gt; n$的情况读者仿照上面的方法可以证明, 不再赘述综上, 原命题成立 代码code]]></content>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[「BOI 2003」GEM 题解]]></title>
+    <url>%2Fsolution-GEM%2F</url>
+    <content type="text"><![CDATA[对于 $f(i,j) = \min\limits_{j!=t}\{f(k, t)\}$ 的一些优化思路和写法 题意给定一棵树, 要求你为树上的结点标上权值, 权值可以是任意的正整数. 但是相临的两个结点不能标上相同的权值. 要求一种方案, 使得整棵树的总价值最小. 输出这个总价值即可. 解法关于这道题, 很容易想到是用DP, 那么设状态为 $dp[i][j]$ 表示若节点 $i$ 选择权值 $j$, $i$ 的子树的最小权值和(注意 $j$ 是小于$O(\log n)$级别的, 文末附有反例), 为了方便我们设$S_k = \{dp[k][x] | x\in\mathbb{N}^+\}$ 那么易得一个转移方程: $dp[i][j] = \sum\limits_{k \in son(i)} \min\limits_{t\not=j}\{dp[k][t]\}$ 容易发现, 后面那个 $\min$ 是只有一个限制的, 即 $\min\limits_{t\not=j}\{dp[k][t]\}$ 无论 $j$ 如何改变, 都(要么是 $S_k$ 中的最小值, 要么是其中的次小值), 因此我们可以简化状态, 具体来说, 对于每个 $S_k$, 仅储存其最小值, 最小值取到的位置和次小值, 那么每次更新节点 $i$ 时, 考虑如下三种情况: 节点 $i$ 取(最小的, 其儿子中没有取到的)的值 (可能作为最小值) 节点 $i$ 取(次小的, 其儿子中没有取到的)的值 (可能作为次小值) 节点 $i$ 取一个其儿子中取到的值, 那么所有(最小值在该值取到的)的儿子都要改取次小值 于是就得到了一个正确性完全没有问题的 $O(n)$ 算法. 代码code Hack 数据和思路test.in 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162621 21 31 41 51 61 71 81 91 101 111 121 131 141 151 161 171 181 191 201 211 221 231 241 251 261 271 281 2929 3029 3129 321 3333 3433 3533 3633 3733 3833 3933 4033 4133 4233 4333 4433 4543 4643 4743 4844 4944 5044 5145 5245 5345 541 551 5655 5755 5855 5956 6056 6156 62 test.out 173 给出一种答案为73的构造: 2-28,34-42,46-54,30-32,57-62填1, 总权值54 43-45,29,55-56填2, 总权值12 33填3, 总权值3 1填4, 总权值4 总和为54+12+3+4=73 思路就是让一个节点(假设你想使其权值为 $k$ )和 $k-1$ 个节点相连, 并且它们在最优方案中的权值为 $1\sim k-1$. 但是我们设 $f_i$ 为这样构造所需节点数的一个下界, 那么有 $f_i = (\sum\limits_{j\in[1,k)} f_j) + 1 = 2^{i-2}\times(f_1+1) (i\ge3)$, 所以最开始 $dp[i][j]$ 的 $j$ 是小于 $O(\log n)$ 级别的]]></content>
+      <tags>
+        <tag>dp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[字符串学习笔记]]></title>
+    <url>%2Flearning-strings%2F</url>
+    <content type="text"><![CDATA[字符串毒瘤! AC 自动机 首先我们将包含所有字典串的 Trie 树建出来, 定义一个节点 u 代表的字符串 $str(u)$ 为其到根路径上经过边上的字母形成的串, 并且顺序是从根向下的. 我们用 $goto(u, c)$ 表示这颗 Trie 树的边. 定义一个节点 u 的$fail$指针为一个数, 代表一个节点 v, 使得串$str(u)$是串$str(v)$的一个前缀. 那么我们在做字符串匹配时, 只需要每次没法匹配就往$fail$ 走就可以了. 为了方便我们同时需要压缩一下,即补全转移函数. 为此我们在$goto(u, c)$没有值时,我们令$goto(u, c) \leftarrow goto(fail(u), c)$,否则我们令$fail(goto(u,c)) = goto(fail(u), c)$,同时将$goto(u, c)$加入队列. 为了保证时间复杂度, 我们需要使用 $fail$ 树. 将每个节点与其 $fail$ 指针所指的节点连边. 有性质: $str(fail(u))$ 是 $str(u)$ 的子串. 那么我们在 AC 自动机上跑一边文本串, 将所有跑到的节点标记+1. 然后对于每个节点 u 求出其子树内节点的和, 这就是 $str(u)$ 出现的次数. Problem 1 (「NOI2011」阿狸的打字机)题意 给定三种操作: 1.小写字母操作 : 将该小写字母加入字符串. 2.B 操作: 删去字符串最后的字符. 3.P 操作: 将当前字符串的一个复制加入 str 数组. 你需要处理 $Q$ 个形如 $(x, y)$ 的询问, 表示第 x 个串在第 y 个串中出现了几次. 解法 建出 AC 自动机. 考虑如何处理询问. 我们 dfs 整个 Trie 树, 每到达一个节点就在 fail 树上它代表的节点 +1, 回溯时清除. 如果我们要处理询问 $(x, y)$, 那么答案就是此时 $y$ 的子树内节点权值和. 该算法成立的原因是我们的询问 $(x, y)$ 在 $fail$ 树中的体现就是求以 $x$ 结束点为根的子树中有多少个点属于 $y$ 的子树. Problem 2 (「JSOI2007」文本生成器)题意 求至少存在一个在 $n$ 个字符串的字典中的子串的长度为 $m$ 的字符串个数. 解法 记 $f(s)$ 表示 s 是否没有一个在字典中的子串. 建出 AC 自动机. 考虑 DP. AC 自动机上的 DP 状态都很模板, 都是设 $dp(i, u)$ 表示长度为 $i$ 在 AC 自动机上 $u$ 节点的答案. 这道题的话, 我们首先容斥, 即求出不可读的串的数量. 转移方程就是 $dp(i, u)\times f(str(k)) \rightarrow dp(i+1, k) (k \in son(u))$, 最后的问题就是如何更新 $f(s)$. 注意到 $str(fail(u))$ 一定是$str(u)$ 的子串. 我们可以在构造 $fail$ 指针的同时计算 $f(str(u))$. SAProblem 1 (不同子串个数)题意 求一个字符串的本质不同子串数量 解法 height 数组性质. 考虑到一个子串就是一个后缀的前缀, 那么我们考虑每一个后缀的贡献, 对于任意一个后缀的”排列”, 我们的答案就是 $\frac{n(n+1)}{2}-\sum\limits_{i\in [2, n]} lcp(i-1, i)$ 考虑如何快速求出这个lcp, 我们发现如果将后缀按照字典序排序, 那么必然有 $lcp(i-1, i)-1&lt;lcp(i, i+1)$, 那么我们就可以优化找 lcp 的过程, 即每次从 $lcp(i-2, i-1)$ 开始枚举来求 $lcp(i-1, i)$, 这样的话, 由于 $lcp(x, x+1) &lt; n$, 我们这个算法的总时间复杂度就是 O(n) 的. 如果采用倍增 SA 来排序后缀, 时间复杂度就是 O(nlogn) 的. 这个 $lcp$ 其实就是 $height$ 数组. 代码 code Problem 2 (「HAOI2016」找相同字符)题意 求两个字符串的相同子串个数. 解法 SA + 单调栈. 考虑实现一个求出一个字符串中相同子串个数的算法, 那么我们要找的就是两个后缀的前缀相同, 考虑使用 SA. 然后考虑到$LCP(sa[i], sa[j]) = \min\limits_{k\in [l, r]}\{height[k]\}$, 那么我们可以利用差分思想+单调栈维护一个$height$的单调递减序列, 考虑被我们丢掉的$height$产生的贡献. 假设我们实现上诉算法为$algo(str)$,那么可以做一个容斥,本题的答案就是$algo(str1+’@’+str2)-algo(str1)-algo(str2)$. 代码 code Problem 3 (「NOI2015」品酒大会)题意 定义两个串 $s1, s2$ 是 “$r$ 相似” 的, 当且仅当 $s1, s2$ 的前 $r$ 个字符相同. 给出一个字符串, 定义它从 $l$ 位置开始的一个后缀的权值是 $a_l$, 统计出有多少种方法可以选出 $2$ 个 “$r$ 相似” 的后缀, 并回答选择 $2$ 个 “$r$ 相似” 的后缀权值相乘所得值的最大值. 解法 SA + 并查集. 对于第一问, 我们考虑差分, 具体来说, 我们先求恰好是 “$r$ 相似” 的后缀组数. 我们考虑按 ht 排序后加入字符串并计入答案. 具体来说, 由$lcp(sa_i, sa_j) = \min\limits_{k\in(i, j]}\{height_k\}$, 其中 $height_k$ 表示后缀 $sa_{k-1}$ 和 $sa_k$ 的 LCP, 我们可以在加入字符串时合并这个字符串所在的集合和这个字符串在排序后的后缀的前一个串所在的集合, 并且这两个集合任意选择两个后缀都能构成恰好 “$r$ 相似”. 考虑第二问. 我们依旧先求恰好是 “$r$ 相似” 的串的后缀相乘的最大值. 在第一问的基础上可以发现此时维护一下集合内最大最小值即可更新. 代码 code 一些口胡: LOJ#6198 考虑沿用上一题做法, 唯一要考虑的问题是 $\mathbb{xor}$ 最大值的维护, 使用 01 Trie 在合并时启发式合并就可以了. 「模板」树上后缀排序 对 Trie 树的排序, 我们每次从每个点到 $2^k$级祖先的路径扩展到 $2^{k+1}$级祖先. 那么进行三关键字排序: $(rk(1\sim2^k)$, $rk(2^k\sim2^{k+1})$, $sa(1\sim2^k)$). (注意第二关键字是没有重复的, 即赋值时不需考虑上一个串与这个排名是否相同) 「NOI2016」优秀的拆分 显然我们只需要求出每个位置开始和结束有多少 AA 串题目就做完了. 我们可以枚举 AA 串长度$2 \times Len$, 取每$k \times Len$点为关键点(每个长度为$2 \times Len$的串必然跨越两个相邻关键点)转化为相邻点对之间问题. 注意到$\sum\limits_{i \in [1, n]} \frac{n}{i} = nH_n \in O(n\log n) $ SAM 我个人认为, SAM 的最大意义有两个: 1.给出了后缀 Trie 的 fail 树的所有叶节点的虚树 (本文以后称 “后缀 Trie 的 fail 树的所有叶节点的虚树” 为 parent 树). 2.给出了一个可以表示所有字符串的有向无环图, 可以将字符串问题转换为 DP 问题. (本文以后称该有向无环图的边集为 $\mathbb{E}$) 接下来给出一些 SAM 可以处理的问题 (以下例题摘自博文后缀自动机, 版权协议为 CC-BY-SA 4.0 及其更新版本. 本文协议为 CC-BY-SA 4.0.) Problem 1题意 求出 $S$ 的所有出现次数不为 $1$ 的子串的出现次数乘上该子串长度的最大值. 解法 对于 parent 树的所有叶节点权值 +1 后求出的子树和即为该串点的出现次数, 注意到 SAM 同时求出了 len 表示一个节点中最长串的长度, 我们就可以直接更新答案. Problem 2题意 求一个字符串所有不同子串的总长度. 解法 DP, 设 $dp_u$ 表示以 $u$ 节点开头的串的不同子串总长度, 明显有 $dp_u = \sum\limits_{(u, v) \in \mathbb{E}} dp_v+f_v$, 其中 $f_v$ 表示 $v$ 节点开头的不同子串个数. $f$ 数组也可以 DP 求出, 转移方程为: $f_u = 1+\sum\limits_{(u, v)\in \mathbb{E}} f_v$. Problem 3题意 求一些字符串的最长公共子串. 解法 构造 $s = C_1+s_1+C_2+s_2+\cdots+C_n+s_n$, 求出 $s$ 的后缀自动机, 那么我们标记节点 $C_1, C_2, \cdots C_n$ 可以到达的节点, 取并集后求出并集中 len 最长的节点的 len 作为答案即可.]]></content>
+      <tags>
+        <tag>sa</tag>
+        <tag>sam</tag>
+        <tag>acam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[「WC2007」剪刀石头布 题解]]></title>
+    <url>%2Fsolution-wc2007-paper-scissors-stone%2F</url>
+    <content type="text"><![CDATA[竞赛图三元环计数的结论+费用流基本建模 题意给定一个竞赛图, 需要给一些边定向, 使得图中的三元环个数最少. 解法考虑容斥, 很明显, 我们考虑 $3$ 个点不构成三元环的情况. 考虑钦定一个不属于三元三个节点, 那么我们很明显有一个节点要选两条出边, 我们钦定这个节点是这三个节点的代表节点 那么很明显$Ans = \dbinom{n}{3} - \sum \dbinom{deg(u)}{2}$ 那么看到n很小, 考虑上网络流/费用流, 发现一条边只能往一个点流, 那么把每条边都拿出来然后往两个点(不需要定向就只往一个点)连边, 费用为0流量为1, 考虑到$\dbinom{deg(u)}{2} = \sum\limits_{i\in[0, deg(u))} i$, 那么所有点建出的点向汇点都连权值0~n的边表示减少的三元环数量, 跑最小费用最大流即可. 代码code]]></content>
+      <tags>
+        <tag>费用流</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[「WC2005」友好的生物 题解]]></title>
+    <url>%2Fsolution-wc2005-friendly-animals%2F</url>
+    <content type="text"><![CDATA[消去绝对值的一些思路. $|x| = \max\limits_{k\in \mathbb{N}}\{(-1)^kx\}$ 题意给定一个权值函数$f(a, b)=(\sum_{i=1}^{k-1} C_id_i)-C_Kd_K$用来计算 a, b 的友好程度. 其中 $C_i$ 是非负常数, $d_i$ 是$a, b$属性 $i$ 的差别 解法我们令$a_{k, i}$表示第 $k$ 个生物的第 $i$ 项属性. 明显$c_i$直接乘进$a_{k, i}$即可, 以下不加以讨论. 考虑不处理绝对值, 具体来说, 我们考虑一个更加宽泛但是最优解一定是原问题最优解的问题, 假设不处理最后一维, 那么我们的权值函数$f(x,y)$可以写成$f(x, y) = \max\limits_{c}{(-1)^{c_i}\times (a_{x, i}-a_{y, i})}$, 那么拆开括号, 此时题目要求的答案就是$\max\limits_{c}\{Mx_{\{c\}}+Mx_{\{d\}} | d_i=1-c_i\}$, 其中$Mx_{\{x\}}$表示$c$数列取$x$时, 生物$1\cdots n$计算的最大权值$f(x)=\sum\limits_{i} ((-1)^{c_i} \times a_{x, i})$ 加上最后一维的话, 可以按最后一位大小枚举然后更新$Mx$的值保证消去最后一维的绝对值 代码code]]></content>
+      <tags>
+        <tag>杂题</tag>
+      </tags>
+  </entry>
+</search>
